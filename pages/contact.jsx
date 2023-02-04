@@ -1,39 +1,52 @@
-import { useState } from 'react';
-import ContactCode from '../components/ContactCode';
-import styles from '../styles/ContactPage.module.css';
+import { useState } from "react";
+import ContactCode from "../components/ContactCode";
+import styles from "../styles/ContactPage.module.css";
+import { sendForm } from "emailjs-com";
 
 const ContactPage = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
 
-  const submitForm = async (e) => {
-    e.preventDefault();
-    console.log(process.env.NEXT_PUBLIC_API_URL);
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/contact`, {
-      method: 'POST',
+  async function submitForm(event) {
+    event.preventDefault();
+
+    const res = await sendForm(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      event.currentTarget,
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+    );
+
+    /* const res = await fetch("/api/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify({ name, email, subject, message }),
-    });
-    if (res.ok) {
-      alert('Your response has been received!');
-      setName('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
+    }); */
+
+    if (res.status === 200) {
+      alert("Sua mensagem foi enviada 😀 Obrigado!");
+      setName("");
+      setEmail("");
+      setSubject("");
+      setMessage("");
     } else {
-      alert('There was an error. Please try again in a while.');
+      alert("Falha no serviço de mensagens 😨 Mensagem não enviada 😢");
+      console.log(res);
     }
-  };
+  }
 
   return (
     <div className={styles.container}>
       <div>
-        <h3 className={styles.heading}>Reach Out Via Socials</h3>
+        <h3 className={styles.heading}>Contate-me pelas redes</h3>
         <ContactCode />
       </div>
       <div>
-        <h3 className={styles.heading}>Or Fill Out This Form</h3>
+        <h3 className={styles.heading}>Ou me envie uma mensagem daqui mesmo</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
@@ -90,7 +103,7 @@ const ContactPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: 'Contact' },
+    props: { title: "Contact" },
   };
 }
 

@@ -1,6 +1,19 @@
 .container {
   margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-auto-rows: 1fr;
   gap: 1.5rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-block: 2rem 1rem;
 }

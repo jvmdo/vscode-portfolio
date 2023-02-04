@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 .container {
   display: flex;
@@ -9,11 +9,12 @@
 }
 
 .background {
-  font-size: 5rem;
-  font-family: 'Montserrat';
-  line-height: 1.1;
+  font-size: 4.5rem;
+  font-family: "Montserrat";
+  line-height: 1.2;
   color: var(--bg-text);
   position: absolute;
+  left: -2rem;
   z-index: 1;
 }
 
@@ -25,42 +26,39 @@
   align-items: center;
 }
 
-.name {
-  color: #eee;
-  font-size: 3.5rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
 .bio {
   width: max-content;
   color: #eee;
   font-size: 1.5rem;
   font-weight: 300;
+  margin-block: 3rem 0.5rem;
+}
+
+.name {
+  color: #eee;
+  font-size: 3.5rem;
+  font-weight: 500;
   margin-bottom: 3rem;
   position: relative;
 }
 
-.bio::before,
-.bio::after {
-  content: '';
+.name::before,
+.name::after {
+  content: "";
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  inset: 0;
 }
 
-.bio::before {
+.name::before {
   background: var(--main-bg);
-  animation: typewriter 2.5s steps(24) 500ms forwards;
+  animation: typewriter 1.5s steps(24) 500ms forwards;
 }
 
-.bio::after {
-  margin-left: 0.4rem;
-  width: 0.125em;
+.name::after {
   background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
+  width: 0.125em;
+  margin-left: 0.4rem;
+  animation: typewriter 1.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
 
@@ -83,7 +81,7 @@
   margin-right: 1.5rem;
   color: #eee;
   font-weight: 600;
-  border: none;
+  border: 2px solid var(--accent-color);
   cursor: pointer;
 }
 
@@ -103,7 +101,10 @@
 
 .illustration {
   height: 500px;
-  width: 460px;
+  aspect-ratio: 23 / 25;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* 4K Screens */
@@ -116,10 +117,10 @@
   }
   .name {
     font-size: 6rem;
+    margin-bottom: 5rem;
   }
   .bio {
     font-size: 3rem;
-    margin-bottom: 5rem;
   }
   .button {
     font-size: 2rem;
@@ -136,22 +137,18 @@
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
   .background {
-    display: none;
-  }
-  .container {
-    display: block;
+    font-size: 4rem;
+    line-height: 1.3;
   }
   .foreground {
     margin: 4rem 0;
-    display: block;
-    text-align: center;
   }
   .name {
     font-size: 4rem;
+    margin: 0.75rem auto 3rem;
   }
   .bio {
     font-size: 1.75rem;
-    margin: 0.75rem auto 3rem;
   }
   .illustration {
     position: absolute;
@@ -164,6 +161,9 @@
 
 /* iPad */
 @media screen and (max-width: 900px) {
+  .background {
+    font-size: 3rem;
+  }
   .foreground {
     margin: 2rem 0;
   }
@@ -173,6 +173,7 @@
   }
   .bio {
     font-size: 1.5rem;
+    margin-top: 0;
   }
   .illustration {
     height: 550px;
@@ -192,15 +193,20 @@
 
 /* Phone */
 @media screen and (max-width: 600px) {
+  .background {
+    font-size: 1.5rem;
+    left: unset;
+    top: 40%;
+  }
   .foreground {
     margin: 0;
   }
   .name {
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
   .bio {
     font-size: 1.25rem;
-    margin-bottom: 2rem;
   }
   .button {
     font-size: 1rem;

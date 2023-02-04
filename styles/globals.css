@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 *,
 *::before,
@@ -8,80 +8,138 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: plum;
+}
+
 /* Tags */
 .react {
-  border: 0.1rem solid rgb(97, 218, 251);
+  border: 1px solid rgb(97, 218, 251);
 }
 .react:hover {
   background: rgba(97, 218, 251, 0.25);
 }
 
 .node {
-  border: 0.1rem solid rgb(131, 205, 41);
+  border: 1px solid rgb(131, 205, 41);
 }
 .node:hover {
   background: rgba(131, 205, 41, 0.25);
 }
 
-.mongodb {
-  border: 0.1rem solid rgb(67, 153, 52);
+.typescript {
+  border: 1px solid rgb(67, 153, 52);
 }
-.mongodb:hover {
+.typescript:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
-  border: 0.1rem solid rgb(118, 74, 188);
+.styled-component {
+  border: 1px solid rgb(118, 74, 188);
 }
-.redux:hover {
+.styled-component:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
-  border: 0.1rem solid rgb(82, 143, 240);
+.react-router-dom {
+  border: 1px solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.react-router-dom:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.material-ui {
-  border: 0.1rem solid rgb(25, 118, 210);
+.react-hook-form {
+  border: 1px solid rgb(74, 134, 142);
 }
-.material-ui:hover {
-  background: rgba(25, 118, 210, 0.25);
+.react-hook-form:hover {
+  background: rgba(74, 134, 142, 0.25);
 }
 
-.bulma {
-  border: 0.1rem solid rgb(0, 209, 178);
+.immer {
+  border: 1px solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.immer:hover {
   background: rgb(0, 209, 178, 0.25);
 }
 
-.next {
-  border: 2px solid rgb(0, 112, 243);
-}
-.next:hover {
-  background: rgba(0, 112, 243, 0.25);
+.local {
+  border: 1px solid rgb(62, 43, 31);
 }
 
-.tailwind {
-  border: 2px solid rgb(6, 182, 212);
-}
-.tailwind:hover {
-  background: rgba(6, 182, 212, 0.25);
+.local:hover {
+  background: rgba(62, 43, 31, 0.25);
 }
 
-.react-query {
-  border: 2px solid rgb(255, 65, 84);
+.responsivo {
+  border: 1px solid rgb(231, 58, 153);
 }
-.react-query:hover {
+.responsivo:hover {
+  background: rgba(231, 58, 153, 0.25);
+}
+
+.date-fns {
+  border: 1px solid rgb(255, 65, 84);
+}
+.date-fns:hover {
   background: rgba(255, 65, 84, 0.25);
 }
 
 .css-modules {
-  border: 2px solid rgb(21, 114, 182);
+  border: 1px solid rgb(21, 114, 182);
 }
 .css-modules:hover {
   background: rgba(21, 114, 182, 0.25);
+}
+
+.zod {
+  border: 1px solid rgb(131, 182, 21);
+}
+.zod:hover {
+  background: rgba(131, 182, 21, 0.25);
+}
+
+.bootstrap {
+  border: 1px solid rgb(115, 21, 182);
+}
+.bootstrap:hover {
+  background: rgba(115, 21, 182, 0.25);
+}
+
+.html {
+  border: 1px solid rgb(182, 75, 21);
+}
+.html:hover {
+  background: rgba(182, 75, 21, 0.25);
+}
+
+.css {
+  border: 1px solid rgb(0, 112, 243);
+}
+.css:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.javascript {
+  border: 1px solid rgb(182, 179, 21);
+}
+.javascript:hover {
+  background: rgba(182, 179, 21, 0.25);
+}
+
+.dom {
+  border: 1px solid rgb(182, 118, 21);
+}
+.dom:hover {
+  background: rgba(182, 118, 21, 0.25);
+}
+
+.jquery {
+  border: 1px solid rgb(21, 182, 37);
+}
+.jquery:hover {
+  background: rgba(21, 182, 37, 0.25);
 }

@@ -1,45 +1,41 @@
-import Link from 'next/link';
-import { useRouter } from 'next/router';
-import FilesIcon from './icons/FilesIcon';
-import GithubIcon from './icons/GithubIcon';
-import CodeIcon from './icons/CodeIcon';
-import PencilIcon from './icons/PencilIcon';
-import MailIcon from './icons/MailIcon';
-import AccountIcon from './icons/AccountIcon';
-import SettingsIcon from './icons/SettingsIcon';
-import styles from '../styles/Sidebar.module.css';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import FilesIcon from "./icons/FilesIcon";
+import GithubIcon from "./icons/GithubIcon";
+import CodeIcon from "./icons/CodeIcon";
+import PencilIcon from "./icons/PencilIcon";
+import MailIcon from "./icons/MailIcon";
+import AccountIcon from "./icons/AccountIcon";
+import SettingsIcon from "./icons/SettingsIcon";
+import styles from "../styles/Sidebar.module.css";
 
 const sidebarTopItems = [
   {
     Icon: FilesIcon,
-    path: '/',
-  },
-  {
-    Icon: GithubIcon,
-    path: '/github',
+    path: "/",
   },
   {
     Icon: CodeIcon,
-    path: '/projects',
-  },
-  {
-    Icon: PencilIcon,
-    path: '/articles',
+    path: "/projects",
   },
   {
     Icon: MailIcon,
-    path: '/contact',
+    path: "/contact",
+  },
+  {
+    Icon: GithubIcon,
+    path: "/github",
   },
 ];
 
 const sidebarBottomItems = [
   {
     Icon: AccountIcon,
-    path: '/about',
+    path: "/about",
   },
   {
     Icon: SettingsIcon,
-    path: '/settings',
+    path: "/settings",
   },
 ];
 
@@ -59,8 +55,8 @@ const Sidebar = () => {
               <Icon
                 fill={
                   router.pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
+                    ? "rgb(225, 228, 232)"
+                    : "rgb(106, 115, 125)"
                 }
                 className={styles.icon}
               />
@@ -75,8 +71,8 @@ const Sidebar = () => {
               <Icon
                 fill={
                   router.pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
+                    ? "rgb(225, 228, 232)"
+                    : "rgb(106, 115, 125)"
                 }
                 className={styles.icon}
               />

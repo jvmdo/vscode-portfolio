@@ -1,0 +1,80 @@
+.title {
+  margin-bottom: 2rem;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  background: var(--accent-color);
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:hover,
+.outlined:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.button:visited {
+  color: inherit;
+}
+
+.subtitle {
+  margin-block: 2rem 1rem;
+}
+
+.skills > fieldset {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  place-items: center;
+  gap: 1rem;
+  border: 2px dashed var(--bg-text);
+  padding: 1rem 0.5rem;
+}
+
+.legend {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: end;
+  margin-left: auto;
+  font-size: 0.8rem;
+}
+
+.legend > span::before {
+  content: "\2022";
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+}
+
+.legend > span:nth-child(1)::before {
+  color: #c6dbef;
+}
+
+.legend > span:nth-child(2)::before {
+  color: #6baed6;
+}
+
+.legend > span:nth-child(3)::before {
+  color: #4292c6;
+}
+
+.legend > span:nth-child(4)::before {
+  color: #2171b5;
+}
+
+.legend > span:nth-child(5)::before {
+  color: #08519c;
+}
+
+.legend > span:not(:last-of-type)::after {
+  content: "|";
+  margin-left: 0.25rem;
+  color: var(--bg-text);
+}

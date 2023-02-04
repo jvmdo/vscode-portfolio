@@ -1,37 +1,163 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "Coffee Delivery",
+    "image": "/coffee-delivery.jpeg",
+    "description": "Site de compra e entrega de cafés para uma cafeteria fictícia.",
+    "tags": [
+      "react",
+      "typescript",
+      "styled-component",
+      "react-router-dom",
+      "react-hook-form",
+      "immer",
+      "local storage",
+      "responsivo"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery",
+    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery?terminal=dev"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Ignite Timer",
+    "image": "/ignite-timer.jpeg",
+    "description": "Aplicativo de contagem regressiva para gestão de tempo Pomodoro.",
+    "tags": [
+      "react",
+      "typescript",
+      "styled-component",
+      "react-router-dom",
+      "date-fns",
+      "zod",
+      "immer",
+      "local storage",
+      "responsivo"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer",
+    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer?terminal=dev"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Todo List",
+    "image": "/todo-list.jpeg",
+    "description": "Clássico aplicativo de tarefas a fazer. Neste projeto, tive o primeiro contato com TypeScript e pude entender como o React trabalha com campos de entrada controlados e não-controlados.",
+    "tags": ["react", "typescript", "css-modules", "responsivo"],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/todo-list",
+    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/todo-list?terminal=dev"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Ignite Feed",
+    "image": "/ignite-feed.jpeg",
+    "description": "Página para feed de postagens, comentários em postagens, likes e remoção de um site fictício.",
+    "tags": ["react", "css-modules", "responsivo"],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-feed"
+  },
+  {
+    "id": 5,
+    "name": "Google Keep Clone",
+    "image": "/keeper-clone.png",
+    "description": "Clone da interface e funcionalidades básicas do Keep. O desenvolvimento aborda manipulação de formulário e listas, criação de componentes e props, gerenciamento de estado e estilização com stylesheet externo.",
+    "tags": ["react"],
+    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/ReactJS",
+    "demo": "https://codesandbox.io/s/keeper-part-3-finished-2h1zhn"
+  },
+  {
+    "id": 6,
+    "name": "Random Country Flag",
+    "image": "/random-country.jpeg",
+    "description": "Aplicativo desenvolvido durante o desafio 30 dias de React que apresentar informações sobre um país aleatório ao pressionar um botão. É possível também alternar entre temas dark e light.",
+    "tags": ["react"],
+    "source_code": "https://github.com/jvmdo/30-days-of-react/tree/main/08_Day_States/exercises"
+  },
+  {
+    "id": 7,
+    "name": "Kreative landing page",
+    "image": "/kreative.jpg",
+    "description": "Landing page desenvolvida com Bootstrap 5. Contém navbar, buttons, cards, form entre outros componentes.",
+    "tags": ["html", "css", "bootstrap", "responsivo"],
+    "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-kreative-landing-page",
+    "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-kreative-landing-page/"
+  },
+  {
+    "id": 8,
+    "name": "W3 Newbies page",
+    "image": "/newbies.jpg",
+    "description": "Landing page desenvolvida com Bootstrap 5. Contém navbar, buttons, cards, form entre outros componentes.",
+    "tags": ["html", "css", "bootstrap", "responsivo"],
+    "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-w3-newbies-page",
+    "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-w3-newbies-page/"
+  },
+  {
+    "id": 9,
+    "name": "Drum Kit",
+    "image": "/drum-kit.png",
+    "description": "Toque bateria no teclado do computador. Referências a elementos, event listeners, obter propriedades de eventos, usar atributos de dados, adicionar/remover classes e reproduzir sons.",
+    "tags": ["html", "css", "javascript", "dom"],
+    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html",
+    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html"
+  },
+  {
+    "id": 10,
+    "name": "Type Ahead",
+    "image": "/type-ahead.jpeg",
+    "description": "O usuário pesquisa cidades dos EUA e o aplicativo combina cada palavra digitada no banco de dados. Faz uso de Fetch API, regex, métodos de array, event listeners e manipulação de HTML por meio do DOM.",
+    "tags": ["html", "css", "javascript", "dom"],
+    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/06%20-%20Type%20Ahead/index-START.html",
+    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/06%20-%20Type%20Ahead/index-START.html"
+  },
+  {
+    "id": 11,
+    "name": "Slide In on Scroll",
+    "image": "/slide-scroll.png",
+    "description": "Deslizar uma imagem horizontalmente na rolagem da página é um efeito muito popular hoje em dia. Neste projeto, desenvolvo esta animação usando APIs do browser e uma função de debounce simples.",
+    "tags": ["html", "css", "javascript", "dom"],
+    "source_code": "https://github.com/jvmdo/wes-bos-courses/blob/master/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index-START.html",
+    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index-START.html"
+  },
+  {
+    "id": 12,
+    "name": "Dicee",
+    "image": "/dicee.jpeg",
+    "description": "Dicee é um jogo para 2 jogadores em que você e seu amigo podem jogar dois dados ao mesmo tempo em cada carregamento da página. Vence quem conseguir o maior valor.",
+    "tags": ["html", "css", "javascript", "dom"],
+    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/DOM%20Challenge%20-%20Dicee%20Game",
+    "demo": "https://shorthaired-dapper-coconut.glitch.me/DOM%20Challenge%20-%20Dicee%20Game/dicee.html"
+  },
+  {
+    "id": 13,
+    "name": "The Simon Game",
+    "image": "/simon.jpeg",
+    "description": "Versão web do famoso jogo de memória que te desafia a memorizar a sequência jogada pela máquina. Não há fim, você ganha se conseguir mais pontos que seus amigos.",
+    "tags": ["html", "css", "javascript", "jquery"],
+    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/JQuery%20Challenge%20-%20The%20Simon%20Game",
+    "demo": "https://shorthaired-dapper-coconut.glitch.me/JQuery%20Challenge%20-%20The%20Simon%20Game/"
+  },
+  {
+    "id": 14,
+    "name": "Clipboard landing page",
+    "image": "/clipboard.jpg",
+    "description": "Landing page responsiva com header, body e footer desenvolvido utilizando HTML e CSS apenas. Um dos vários desafios que completei do Frontend Mentor Challenge.",
+    "tags": ["html", "css", "responsivo"],
+    "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/clipboard-landing-page-master",
+    "demo": "https://jvmdo.github.io/frontend-mentor-challenges/clipboard-landing-page-master/"
+  },
+  {
+    "id": 15,
+    "name": "Huddle landing page",
+    "image": "/huddle.jpg",
+    "description": "Landing page responsiva com seções de background ondulados desenvolvido utilizando HTML e CSS apenas. Um dos vários desafios que completei do Frontend Mentor Challenge.",
+    "tags": ["html", "css", "responsivo"],
+    "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-curved-sections",
+    "demo": "https://jvmdo.github.io/frontend-mentor-challenges/huddle-landing-page-with-curved-sections/"
+  },
+  {
+    "id": 16,
+    "name": "Card details form",
+    "image": "/card-form.jpg",
+    "description": "Formulário para preenchimento de dados de cartão de crédito atualizado e formatado em tempo real. Utilizei grid para sobrepor os cartões e para fazê-los totalmente responsivos.",
+    "tags": ["html", "css", "javascript", "dom", "responsivo"],
+    "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-curved-sections",
+    "demo": "https://jvmdo.github.io/frontend-mentor-challenges/interactive-card-details-form/"
   }
 ]
