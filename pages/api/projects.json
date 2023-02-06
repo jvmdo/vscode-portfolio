@@ -15,7 +15,7 @@
       "responsivo"
     ],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery",
-    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery?terminal=dev"
+    "demo": "https://coffee-delivery-jvmdo.vercel.app/"
   },
   {
     "id": 2,
@@ -34,7 +34,7 @@
       "responsivo"
     ],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer",
-    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer?terminal=dev"
+    "demo": "https://ignite-timer-jvmdo.vercel.app/"
   },
   {
     "id": 3,
@@ -43,7 +43,7 @@
     "description": "Clássico aplicativo de tarefas a fazer. Neste projeto, tive o primeiro contato com TypeScript e pude entender como o React trabalha com campos de entrada controlados e não-controlados.",
     "tags": ["react", "typescript", "css-modules", "responsivo"],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/todo-list",
-    "demo": "https://stackblitz.com/github/jvmdo/rocketseat-ignite/tree/main/reactjs/todo-list?terminal=dev"
+    "demo": "https://todo-list-jvmdo.netlify.app/"
   },
   {
     "id": 4,
@@ -51,7 +51,7 @@
     "image": "/ignite-feed.jpeg",
     "description": "Página para feed de postagens, comentários em postagens, likes e remoção de um site fictício.",
     "tags": ["react", "css-modules", "responsivo"],
-    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-feed"
+    "source_code": "https://ignite-feed-jvmdo.vercel.app/"
   },
   {
     "id": 5,
@@ -68,7 +68,7 @@
     "image": "/random-country.jpeg",
     "description": "Aplicativo desenvolvido durante o desafio 30 dias de React que apresentar informações sobre um país aleatório ao pressionar um botão. É possível também alternar entre temas dark e light.",
     "tags": ["react"],
-    "source_code": "https://github.com/jvmdo/30-days-of-react/tree/main/08_Day_States/exercises"
+    "source_code": "https://random-country-flag-jvmdo.vercel.app/"
   },
   {
     "id": 7,
