@@ -51,7 +51,8 @@
     "image": "/ignite-feed.jpeg",
     "description": "Página para feed de postagens, comentários em postagens, likes e remoção de um site fictício.",
     "tags": ["react", "css-modules", "responsivo"],
-    "source_code": "https://ignite-feed-jvmdo.vercel.app/"
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-feed",
+    "demo": "https://ignite-feed-jvmdo.vercel.app/"
   },
   {
     "id": 5,
@@ -68,7 +69,8 @@
     "image": "/random-country.jpeg",
     "description": "Aplicativo desenvolvido durante o desafio 30 dias de React que apresentar informações sobre um país aleatório ao pressionar um botão. É possível também alternar entre temas dark e light.",
     "tags": ["react"],
-    "source_code": "https://random-country-flag-jvmdo.vercel.app/"
+    "source_code": "https://github.com/jvmdo/30-days-of-react/tree/main/08_Day_States/exercises",
+    "demo": "https://random-country-flag-jvmdo.vercel.app/"
   },
   {
     "id": 7,
