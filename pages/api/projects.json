@@ -49,7 +49,7 @@
     "id": 4,
     "name": "Ignite Feed",
     "image": "/ignite-feed.jpeg",
-    "description": "Página para feed de postagens, comentários em postagens, likes e remoção de um site fictício.",
+    "description": "Página de uma rede social fictícia para feed de postagens. O usuário pode criar posts, comentar, dar likes e remover comentários.",
     "tags": ["react", "css-modules", "responsivo"],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-feed",
     "demo": "https://ignite-feed-jvmdo.vercel.app/"

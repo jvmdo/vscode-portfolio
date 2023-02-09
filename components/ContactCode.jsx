@@ -8,8 +8,8 @@ const contactItems = [
   },
   {
     social: "linkedin",
-    link: "deoliveirajoao",
-    href: "https://www.linkedin.com/",
+    link: "de-oliveira-joao",
+    href: "www.linkedin.com/in/de-oliveira-joao",
   },
 ];
 
