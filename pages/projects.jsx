@@ -19,13 +19,13 @@ const ProjectsPage = ({ projects }) => {
         foi escrito em Flutter, por isso não o coloquei na lista.
       </p>
       <p className={styles.paragraph}>
-        Este website não está na lista porque não foi desenvolvido por mim,
-        adaptei de{" "}
+        Este website está fora da lista pois não é de minha autoria, adaptei-o
+        de{" "}
         <a href="https://github.com/itsnitinr/vscode-portfolio">
           Nitin Ranganath
         </a>{" "}
-        porque gostei muito da ideia e para que eu tivesse minha primeira
-        interação com NextJS.
+        por dois motivos: gostei muito da ideia; para que eu tivesse meu
+        primeiro contato com NextJS.
       </p>
       <h3 className={styles.subtitle}>Portfolio</h3>
       <div className={styles.container}>

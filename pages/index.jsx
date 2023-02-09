@@ -15,10 +15,10 @@ export default function HomePage() {
             <h6 className={styles.bio}>Bem-vindo(a), eu me chamo</h6>
             <h1 className={styles.name}>João Oliveira</h1>
             <Link href="/projects">
-              <button className={styles.button}>View Work</button>
+              <button className={styles.button}>Ver projetos</button>
             </Link>
             <Link href="/contact">
-              <button className={styles.outlined}>Contact Me</button>
+              <button className={styles.outlined}>Contate-me</button>
             </Link>
           </div>
           {/* <Illustration className={styles.illustration} /> */}

@@ -52,21 +52,21 @@ const AboutPage = () => {
             <span>Avançado</span>
             <span>Expert</span>
           </legend>
-          <AnimatedPieChart name="HTML" percent={85} />
+          <AnimatedPieChart name="HTML" percent={80} />
           <AnimatedPieChart name="CSS" percent={80} />
           <AnimatedPieChart name="JavaScript" percent={80} />
-          <AnimatedPieChart name="DOM" percent={60} />
+          <AnimatedPieChart name="DOM" percent={50} />
           <AnimatedPieChart name="ReactJS" percent={45} />
           <AnimatedPieChart name="Bootstrap" percent={40} />
-          <AnimatedPieChart name="Figma/Design" percent={15} />
+          <AnimatedPieChart name={["Figma/", "Design"]} percent={15} />
           <AnimatedPieChart name="Git/GitHub" percent={30} />
-          <AnimatedPieChart name="Node" percent={25} />
+          <AnimatedPieChart name="NodeJS" percent={25} />
           <AnimatedPieChart name="Express" percent={10} />
           <AnimatedPieChart name="MongoDB" percent={10} />
           <AnimatedPieChart name="Python" percent={50} />
-          <AnimatedPieChart name="C/C++" percent={30} />
           <AnimatedPieChart name="Dart/Flutter" percent={50} />
-          <AnimatedPieChart name="Vontade" percent={100} />
+          <AnimatedPieChart name="C/C++" percent={30} />
+          <AnimatedPieChart name={["Vontade/", "Dedicação"]} percent={100} />
         </fieldset>
       </div>
     </>

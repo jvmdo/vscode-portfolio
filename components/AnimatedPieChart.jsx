@@ -1,28 +1,43 @@
 import { useEffect, useState } from "react";
 import { VictoryPie, VictoryAnimation, VictoryLabel } from "victory";
 
+/*
+  Básico: [1, 10]
+  Iniciante: [11, 25]
+  Intermediário: [26, 60]
+  Avançado: [61, 90]
+  Expert: [91, 100]
+*/
+const bounders = [
+  [91, 100],
+  [61, 90],
+  [26, 60],
+  [11, 25],
+  [1, 10],
+];
+
+function range(min, max, length = max - min + 1) {
+  return Array.from({ length }, (_, i) => i + min);
+}
+
 function matchColor(y) {
-  /*
-    Básico: [1, 10]
-    Iniciante: [11, 25]
-    Intermediário: [26, 60]
-    Avançado: [61, 90]
-    Expert: [91, 100]
-  */
   const colors = ["#08519c", "#2171b5", "#4292c6", "#6baed6", "#c6dbef"];
-  const bounders = [
-    [91, 100],
-    [61, 90],
-    [26, 60],
-    [11, 25],
-    [1, 10],
-  ];
-  const range = (min, max, length = max - min + 1) =>
-    Array.from({ length }, (_, i) => i + min);
+
   for (let i in bounders) {
     if (range(...bounders[i]).includes(y)) return colors[i];
   }
+
   return colors.at(-1);
+}
+
+function matchLevel(p) {
+  const levels = ["Expert", "Avançado", "Intermediário", "Iniciante", "Básico"];
+
+  for (let i in bounders) {
+    if (range(...bounders[i]).includes(p)) return levels[i];
+  }
+
+  return levels.at(-1);
 }
 
 export function AnimatedPieChart(props) {
@@ -75,29 +90,17 @@ export function AnimatedPieChart(props) {
                 x === 1 ? matchColor(y) : "var(--bg-text)",
             },
           }}
+          labels={() => props.name}
+          labelComponent={
+            <VictoryLabel
+              textAnchor="middle"
+              verticalAnchor="middle"
+              x={100}
+              y={100}
+              style={{ fontSize: 16, fill: "var(--text-color)" }}
+            />
+          }
         />
-        <VictoryAnimation duration={1000} data={state}>
-          {() => {
-            return (
-              <VictoryLabel
-                textAnchor="middle"
-                verticalAnchor="middle"
-                x={100}
-                y={100}
-                text={
-                  props.name
-                    .split("/")
-                    .map(
-                      (w, i, self) =>
-                        `${w}${!i && i + 1 != self.length ? "/" : ""}\n`
-                    )
-                    .join("") + `${props.percent}%`
-                }
-                style={{ fontSize: 16, fill: "var(--text-color)" }}
-              />
-            );
-          }}
-        </VictoryAnimation>
       </svg>
     </div>
   );
