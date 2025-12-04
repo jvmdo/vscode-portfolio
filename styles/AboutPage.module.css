@@ -42,7 +42,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: end;
-  margin-left: auto;
+  margin-right: auto;
   font-size: 0.8rem;
 }
 
@@ -53,11 +53,11 @@
   margin-right: 0.25rem;
 }
 
-.legend > span:nth-child(1)::before {
+.legend > span:nth-child(5)::before {
   color: #c6dbef;
 }
 
-.legend > span:nth-child(2)::before {
+.legend > span:nth-child(4)::before {
   color: #6baed6;
 }
 
@@ -65,11 +65,11 @@
   color: #4292c6;
 }
 
-.legend > span:nth-child(4)::before {
+.legend > span:nth-child(2)::before {
   color: #2171b5;
 }
 
-.legend > span:nth-child(5)::before {
+.legend > span:nth-child(1)::before {
   color: #08519c;
 }
 

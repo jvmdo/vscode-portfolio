@@ -6,27 +6,40 @@ const AboutPage = () => {
     <>
       <h2 className={styles.title}>Um pouco sobre mim</h2>
       <p className={styles.paragraph}>
-        Em Julho de 2022, tornei-me bacharel em Engenharia de Computação pela
-        Universidade do Estado do Amazonas (UEA). Durante o curso, as áreas da
-        computação que mais despertaram meu interesse foram Inteligência
-        Artificial, Sistemas Embarcados e Desenvolvimento de Software. Por conta
-        disso, apliquei conhecimentos desses três ramos para desenvolver um
-        protótipo de sistema de portaria inteligente que utilizei como trabalho
-        de conclusão.
+        Em Julho de 2022, concluí meu bacharelado em Engenharia de Computação
+        pela Universidade do Estado do Amazonas (UEA). As áreas da computação
+        que mais despertaram meu interesse foram Inteligência Artificial,
+        Sistemas Embarcados e desenvolvimento de apps. Por conta disso, apliquei
+        conhecimentos desses três ramos para desenvolver{" "}
+        <a href="https://github.com/jvmdo/ead-mg-repo" target="_blank">
+          um protótipo de sistema de portaria inteligente
+        </a>{" "}
+        que utilizei como trabalho de conclusão. Desde formado, venho me
+        especializando em desenvolvimento web.
       </p>
       <p className={styles.paragraph}>
-        Após formado, decidi me especializar em desenvolvimento web, com foco no
-        frontend, o qual estou dedicado a aprender, praticar e desenvolver todos
-        os dias. Sigo este <a href="https://roadmap.sh/frontend">roadmap</a>{" "}
-        para focar nas tecnologias mais utilizadas na comunidade e no mercado.
-        Atualmente, estou matriculado no{" "}
-        <a href="https://lp.rocketseat.com.br/ignite?&&_gl=1*2jnxzn*_ga*MzIzNTA3Mzk0LjE2NzE0NzQzNTc.*_ga_74RKNGM8RL*MTY3NTQ2OTIxMi43LjAuMTY3NTQ2OTIxMi42MC4wLjA.#sobre">
-          Rocketseat Ignite.
-        </a>
+        Minha última experiência profissional foi como desenvolvedor web
+        full-stack no Instituto de Controle do Espaço Aéreo (ICEA), São José dos
+        Campos - SP. Nesse cargo, fui responsável por desenvolver duas
+        ferramentas web completas: um visualizador de espaço aéreo e um
+        gerenciador de arquivos.
       </p>
       <p className={styles.paragraph}>
-        Nas minhas experiências profissionais, tive a oportunidade de trabalhar
-        com as 3 áreas citadas acima. Mais detalhes no meu curriculum.
+        O visualizador de espaço aéreo 2D mostra em tempo real áreas e pontos,
+        significando regiões de operação, regiões de restrições e drones em
+        operação com base na view do mapa e em filtros. Os dados são recuperados
+        dos serviços através de HTTP e MQTT sobre Websockets.
+      </p>
+      <p className={styles.paragraph}>
+        O gerenciador é uma ferramenta para upload de arquivos e conta com
+        formulários, dashboard com gráficos, filtragem e regras de acesso. Os
+        arquivos são enviados com resumable uploads. As demais trocas de dados
+        são feitas por REST.
+      </p>
+      <p className={styles.paragraph}>
+        Ambas as aplicações são impulsionadas por React.js, FastAPI e Postgres.
+        Algumas das bibliotecas do ecossistema utilizadas foram: Leaflet,
+        Recharts, Nuqs, Uppy, Tanstack Query/Table/Virtual e Hook Form.
       </p>
       <a
         className={styles.button}
@@ -37,36 +50,38 @@ const AboutPage = () => {
       >
         Baixar curriculum
       </a>
+
       <h3 className={styles.subtitle}>Habilidades</h3>
-      <p className={styles.paragraph}>
-        Estou focado em linguagens e tecnologias atuais voltadas ao
-        desenvolvimento frontend, adquirindo mais conhecimentos sobre elas a
-        cada novo projeto.
-      </p>
       <div className={styles.skills}>
         <fieldset>
           <legend className={styles.legend}>
-            <span>Básico</span>
-            <span>Iniciante</span>
-            <span>Intermediário</span>
-            <span>Avançado</span>
             <span>Expert</span>
+            <span>Avançado</span>
+            <span>Intermediário</span>
+            <span>Iniciante</span>
+            <span>Básico</span>
           </legend>
+          <AnimatedPieChart name="JavaScript" percent={90} />
+          <AnimatedPieChart name="React.js" percent={80} />
           <AnimatedPieChart name="HTML" percent={80} />
           <AnimatedPieChart name="CSS" percent={80} />
-          <AnimatedPieChart name="JavaScript" percent={80} />
-          <AnimatedPieChart name="DOM" percent={50} />
-          <AnimatedPieChart name="ReactJS" percent={45} />
-          <AnimatedPieChart name="Bootstrap" percent={40} />
-          <AnimatedPieChart name={["Figma/", "Design"]} percent={15} />
-          <AnimatedPieChart name="Git/GitHub" percent={30} />
-          <AnimatedPieChart name="NodeJS" percent={25} />
-          <AnimatedPieChart name="Express" percent={10} />
-          <AnimatedPieChart name="MongoDB" percent={10} />
-          <AnimatedPieChart name="Python" percent={50} />
-          <AnimatedPieChart name="Dart/Flutter" percent={50} />
-          <AnimatedPieChart name="C/C++" percent={30} />
-          <AnimatedPieChart name={["Vontade/", "Dedicação"]} percent={100} />
+          <AnimatedPieChart name="DOM" percent={65} />
+          <AnimatedPieChart name="Next.js" percent={60} />
+          {/* <AnimatedPieChart name="R Router" percent={50} /> */}
+          <AnimatedPieChart name={["T Query", "SWR"]} percent={50} />
+          {/* <AnimatedPieChart name={["Redux", "R Toolkit"]} percent={50} /> */}
+          {/* <AnimatedPieChart name="Zustand" percent={50} /> */}
+          <AnimatedPieChart name="Tailwind" percent={50} />
+          {/* <AnimatedPieChart name={["Jest", "Playwright"]} percent={50} /> */}
+          <AnimatedPieChart name="Python" percent={90} />
+          <AnimatedPieChart name="FastAPI" percent={80} />
+          <AnimatedPieChart name="Pytest" percent={70} />
+          <AnimatedPieChart name="Node.js" percent={50} />
+          {/* <AnimatedPieChart name={["Node", "Nest.js"]} percent={50} /> */}
+          <AnimatedPieChart name={["Postgres", "Mongo"]} percent={40} />
+          <AnimatedPieChart name="Docker" percent={50} />
+          <AnimatedPieChart name={["Git", "GitHub"]} percent={50} />
+          <AnimatedPieChart name={["Figma", "Design"]} percent={15} />
         </fieldset>
       </div>
     </>
