@@ -1,6 +1,167 @@
 [
   {
-    "id": 1,
+    "id": "cc54325b-b3bb-4675-a6cf-fbb0086a2a84",
+    "name": "Weather Now",
+    "image": "/weather-now.png",
+    "description": "Veja a previsão do tempo semanal e completa de qualquer cidade do planeta!",
+    "tags": [
+      "react",
+      "tanstack-query",
+      "tanstack-pacer",
+      "match-sorter",
+      "base-ui",
+      "radix-ui",
+      "css-modules",
+      "responsivo"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/bookwise",
+    "demo": "https://weather-now-jvmdo.netlify.app/"
+  },
+  {
+    "id": "008f61d1-d89c-4a82-a50b-eddbb3248fa9",
+    "name": "Bookwise",
+    "image": "/bookwise.png",
+    "description": "Aplicativo web para escrita e leitura de avaliações de livros dos mais diversos gêneros.",
+    "tags": [
+      "next",
+      "next-auth",
+      "swr",
+      "prisma",
+      "zod",
+      "stitches",
+      "hook-form",
+      "responsivo",
+      "bff"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/bookwise",
+    "demo": "https://bookwise-jvmdo.vercel.app/"
+  },
+  {
+    "id": "7b701c93-faef-47cd-8331-af6094676a20",
+    "name": "MDX Blog",
+    "image": "/mdx-blog.png",
+    "description": "Blog de alto desempenho com animações, tema renderizado no servidor e RSS Feed.",
+    "tags": [
+      "next",
+      "next-mdx-markdown",
+      "rsc",
+      "bright",
+      "motion",
+      "css-modules",
+      "js-cookie"
+    ],
+    "source_code": "https://github.com/jvmdo/mdx-blog",
+    "demo": "https://mdx-blog-jvmdo.vercel.app/"
+  },
+  {
+    "id": "d3a850ff-7a74-4dce-a6de-0d911a1cb63f",
+    "name": "Ignite Call",
+    "image": "/ignite-call.png",
+    "description": "Faça o agendamento de vídeo-conferências no Google Meet e seu Google Calendar irá lembrá-lo do evento.",
+    "tags": [
+      "next",
+      "next-auth",
+      "google-apis",
+      "tanstack-query",
+      "prisma",
+      "dayjs",
+      "zod",
+      "nookies",
+      "responsivo",
+      "bff"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-call",
+    "demo": "https://ignite-call-jvmdo.vercel.app/"
+  },
+  {
+    "id": "e2ea28a5-7f26-465a-bd0e-4ff8ad9711b9",
+    "name": "DT Money",
+    "image": "/dt-money.png",
+    "description": "Aplicativo web para controle financeiro. Usuários podem inserir, buscar e visualizar suas transações.",
+    "tags": [
+      "react",
+      "axios",
+      "radix-ui",
+      "keen-slider",
+      "styled-components",
+      "zod",
+      "react-responsive",
+      "json-server"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/dt-money",
+    "demo": "https://dt-money-jvmdo.netlify.app/"
+  },
+  {
+    "id": "95a5f476-e1aa-4b47-b954-dcc82f60ab55",
+    "name": "Design System",
+    "image": "/design-system.png",
+    "description": "Um design system interativo com Storybook",
+    "tags": [
+      "react",
+      "storybook",
+      "radix-ui",
+      "stitches",
+      "npm",
+      "github-actions",
+      "turborepo"
+    ],
+    "source_code": "https://github.com/jvmdo/ignite-design-system",
+    "demo": "https://jvmdo.github.io/ignite-design-system/?path=/story/tokens-colors--page"
+  },
+  {
+    "id": "196da51b-0c4f-450b-ada6-5fb08ae024b3",
+    "name": "IP Address Tracker",
+    "image": "/ip-address-tracker.png",
+    "description": "Encontre a localização de qualquer IPv4/v6 do planeta!",
+    "tags": [
+      "react",
+      "tanstack-query",
+      "leaflet",
+      "linaria",
+      "maska",
+      "error-boundary"
+    ],
+    "source_code": "https://github.com/jvmdo/ip-address-tracker",
+    "demo": "https://ip-address-tracker-jvmdo.netlify.app/"
+  },
+  {
+    "id": "36f1e687-d980-48be-8666-f7cd9e347f7c",
+    "name": "Timer",
+    "image": "/ignite-timer.jpeg",
+    "description": "Esse app irá ajudá-lo a pôr a técnica Pomodoro em ação!",
+    "tags": [
+      "react",
+      "typescript",
+      "styled-component",
+      "react-router-dom",
+      "date-fns",
+      "zod",
+      "immer",
+      "responsivo",
+      "local-storage"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer",
+    "demo": "https://ignite-timer-jvmdo.vercel.app/"
+  },
+  {
+    "id": "5536fea3-2a4a-4bb6-83b4-8da004cc35fa",
+    "name": "Ignite Shop",
+    "image": "/ignite-shop.png",
+    "description": "Loja virtual fictícia para venda de camisas.",
+    "tags": [
+      "next",
+      "typescript",
+      "material-ui",
+      "stitches",
+      "axios",
+      "responsivo",
+      "stripe"
+    ],
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-shop-2.0",
+    "demo": "https://ignite-shop-2-jvmdo.netlify.app/"
+  },
+  {
+    "id": "c69f76b9-e5b9-44bd-bc14-791ddc7b6fc4",
     "name": "Coffee Delivery",
     "image": "/coffee-delivery.jpeg",
     "description": "Site de compra e entrega de cafés para uma cafeteria fictícia.",
@@ -11,155 +172,126 @@
       "react-router-dom",
       "react-hook-form",
       "immer",
-      "local storage",
-      "responsivo"
+      "responsivo",
+      "local-storage"
     ],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery",
     "demo": "https://coffee-delivery-jvmdo.vercel.app/"
   },
   {
-    "id": 2,
-    "name": "Ignite Timer",
-    "image": "/ignite-timer.jpeg",
-    "description": "Aplicativo de contagem regressiva para gestão de tempo Pomodoro.",
+    "id": "900a89db-6c3e-4c5e-bf54-d7b1607ff2e7",
+    "name": "Github Blog",
+    "image": "/github-blog.png",
+    "description": "Blog de issues de repositórios no Github.",
     "tags": [
       "react",
+      "react-router",
+      "react-markdown",
       "typescript",
-      "styled-component",
-      "react-router-dom",
-      "date-fns",
-      "zod",
-      "immer",
-      "local storage",
-      "responsivo"
+      "styled-components",
+      "hook-form",
+      "github-apis"
     ],
-    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer",
-    "demo": "https://ignite-timer-jvmdo.vercel.app/"
+    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/github-blog",
+    "demo": "https://github-blog-jvmdo.netlify.app/"
   },
   {
-    "id": 3,
+    "id": "b2ef5337-760a-44ec-bef5-49dec4aea319",
+    "name": "Basic Calculator",
+    "image": "/basic-calculator.png",
+    "description": "Faça contas aritméticas básicas em 3 temas coloridos.",
+    "tags": ["react", "math-js", "css-modules", "responsive"],
+    "source_code": "https://github.com/jvmdo/calculator-basic",
+    "demo": "https://basic-calculator-jvmdo.netlify.app/"
+  },
+  {
+    "id": "73ffb8b5-97ba-47bb-a378-4d308089da69",
     "name": "Todo List",
     "image": "/todo-list.jpeg",
-    "description": "Clássico aplicativo de tarefas a fazer. Neste projeto, tive o primeiro contato com TypeScript e pude entender como o React trabalha com campos de entrada controlados e não-controlados.",
+    "description": "Clássico TODO app.",
     "tags": ["react", "typescript", "css-modules", "responsivo"],
     "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/todo-list",
     "demo": "https://todo-list-jvmdo.netlify.app/"
   },
   {
-    "id": 4,
-    "name": "Ignite Feed",
-    "image": "/ignite-feed.jpeg",
-    "description": "Página de uma rede social fictícia para feed de postagens. O usuário pode criar posts, comentar, dar likes e remover comentários.",
-    "tags": ["react", "css-modules", "responsivo"],
-    "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-feed",
-    "demo": "https://ignite-feed-jvmdo.vercel.app/"
+    "id": "4a38c517-9359-4b4a-b216-c9b54dd35040",
+    "name": "Word Game",
+    "image": "/word-game.png",
+    "description": "Joguinho inspirado no famoso Wordle.",
+    "tags": ["react"],
+    "source_code": "https://github.com/jvmdo/wordle-clone",
+    "demo": "https://word-game-jvmdo.netlify.app/"
   },
   {
-    "id": 5,
-    "name": "Google Keep Clone",
+    "id": "6a8aca8c-e688-4ff7-8ebc-076746be25ba",
+    "name": "Doogle Kreepy",
     "image": "/keeper-clone.png",
-    "description": "Clone da interface e funcionalidades básicas do Keep. O desenvolvimento aborda manipulação de formulário e listas, criação de componentes e props, gerenciamento de estado e estilização com stylesheet externo.",
+    "description": "Clone da interface e funcionalidades básicas do Google Keep.",
     "tags": ["react"],
     "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/ReactJS",
     "demo": "https://codesandbox.io/s/keeper-part-3-finished-2h1zhn"
   },
   {
-    "id": 6,
-    "name": "Random Country Flag",
-    "image": "/random-country.jpeg",
-    "description": "Aplicativo desenvolvido durante o desafio 30 dias de React que apresentar informações sobre um país aleatório ao pressionar um botão. É possível também alternar entre temas dark e light.",
-    "tags": ["react"],
-    "source_code": "https://github.com/jvmdo/30-days-of-react/tree/main/08_Day_States/exercises",
-    "demo": "https://random-country-flag-jvmdo.vercel.app/"
-  },
-  {
-    "id": 7,
-    "name": "Kreative landing page",
+    "id": "af4006b4-072d-40af-9889-32e8f2c50567",
+    "name": "Bootstrap 5 landing page",
     "image": "/kreative.jpg",
-    "description": "Landing page desenvolvida com Bootstrap 5. Contém navbar, buttons, cards, form entre outros componentes.",
+    "description": "Landing page com navbar, buttons, cards, form entre outros componentes.",
     "tags": ["html", "css", "bootstrap", "responsivo"],
     "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-kreative-landing-page",
     "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-kreative-landing-page/"
   },
   {
-    "id": 8,
-    "name": "W3 Newbies page",
+    "id": "9ec943d5-4456-4d65-9ef4-24ecb6a3fb22",
+    "name": "Bootstrap 5 landing page II ",
     "image": "/newbies.jpg",
-    "description": "Landing page desenvolvida com Bootstrap 5. Contém navbar, buttons, cards, form entre outros componentes.",
+    "description": "Landing page com navbar, buttons, cards, form entre outros componentes.",
     "tags": ["html", "css", "bootstrap", "responsivo"],
     "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-w3-newbies-page",
     "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-w3-newbies-page/"
   },
   {
-    "id": 9,
-    "name": "Drum Kit",
-    "image": "/drum-kit.png",
-    "description": "Toque bateria no teclado do computador. Referências a elementos, event listeners, obter propriedades de eventos, usar atributos de dados, adicionar/remover classes e reproduzir sons.",
-    "tags": ["html", "css", "javascript", "dom"],
-    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html",
-    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html"
-  },
-  {
-    "id": 10,
-    "name": "Type Ahead",
-    "image": "/type-ahead.jpeg",
-    "description": "O usuário pesquisa cidades dos EUA e o aplicativo combina cada palavra digitada no banco de dados. Faz uso de Fetch API, regex, métodos de array, event listeners e manipulação de HTML por meio do DOM.",
-    "tags": ["html", "css", "javascript", "dom"],
-    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/06%20-%20Type%20Ahead/index-START.html",
-    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/06%20-%20Type%20Ahead/index-START.html"
-  },
-  {
-    "id": 11,
-    "name": "Slide In on Scroll",
-    "image": "/slide-scroll.png",
-    "description": "Deslizar uma imagem horizontalmente na rolagem da página é um efeito muito popular hoje em dia. Neste projeto, desenvolvo esta animação usando APIs do browser e uma função de debounce simples.",
-    "tags": ["html", "css", "javascript", "dom"],
-    "source_code": "https://github.com/jvmdo/wes-bos-courses/blob/master/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index-START.html",
-    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/13%20-%20Slide%20in%20on%20Scroll/index-START.html"
-  },
-  {
-    "id": 12,
-    "name": "Dicee",
-    "image": "/dicee.jpeg",
-    "description": "Dicee é um jogo para 2 jogadores em que você e seu amigo podem jogar dois dados ao mesmo tempo em cada carregamento da página. Vence quem conseguir o maior valor.",
-    "tags": ["html", "css", "javascript", "dom"],
-    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/DOM%20Challenge%20-%20Dicee%20Game",
-    "demo": "https://shorthaired-dapper-coconut.glitch.me/DOM%20Challenge%20-%20Dicee%20Game/dicee.html"
-  },
-  {
-    "id": 13,
-    "name": "The Simon Game",
-    "image": "/simon.jpeg",
-    "description": "Versão web do famoso jogo de memória que te desafia a memorizar a sequência jogada pela máquina. Não há fim, você ganha se conseguir mais pontos que seus amigos.",
-    "tags": ["html", "css", "javascript", "jquery"],
-    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/JQuery%20Challenge%20-%20The%20Simon%20Game",
-    "demo": "https://shorthaired-dapper-coconut.glitch.me/JQuery%20Challenge%20-%20The%20Simon%20Game/"
-  },
-  {
-    "id": 14,
-    "name": "Clipboard landing page",
+    "id": "ff224009-105a-47a6-80b1-e3e03941bb05",
+    "name": "Vanilla landing page",
     "image": "/clipboard.jpg",
-    "description": "Landing page responsiva com header, body e footer desenvolvido utilizando HTML e CSS apenas. Um dos vários desafios que completei do Frontend Mentor Challenge.",
+    "description": "Landing page responsiva com header, body e footer desenvolvido utilizando HTML e CSS apenas.",
     "tags": ["html", "css", "responsivo"],
     "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/clipboard-landing-page-master",
     "demo": "https://jvmdo.github.io/frontend-mentor-challenges/clipboard-landing-page-master/"
   },
   {
-    "id": 15,
-    "name": "Huddle landing page",
-    "image": "/huddle.jpg",
-    "description": "Landing page responsiva com seções de background ondulados desenvolvido utilizando HTML e CSS apenas. Um dos vários desafios que completei do Frontend Mentor Challenge.",
-    "tags": ["html", "css", "responsivo"],
-    "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-curved-sections",
-    "demo": "https://jvmdo.github.io/frontend-mentor-challenges/huddle-landing-page-with-curved-sections/"
+    "id": "c4b9aff5-984f-487f-89ee-bab4e64c647b",
+    "name": "Vanilla Type Ahead",
+    "image": "/type-ahead.jpeg",
+    "description": "Autocomplete com filtragem e destaques utilizando DOM apenas.",
+    "tags": ["html", "css", "javascript", "dom", "fetch"],
+    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/06%20-%20Type%20Ahead/index-START.html",
+    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/06%20-%20Type%20Ahead/index-START.html"
   },
   {
-    "id": 16,
-    "name": "Card details form",
+    "id": "efd1a8de-6a85-421b-9c76-9a573604e23a",
+    "name": "Credit Card Form",
     "image": "/card-form.jpg",
-    "description": "Formulário para preenchimento de dados de cartão de crédito atualizado e formatado em tempo real. Utilizei grid para sobrepor os cartões e para fazê-los totalmente responsivos.",
+    "description": "Formulário para preenchimento de dados de cartão de crédito com validação e mascaramento.",
     "tags": ["html", "css", "javascript", "dom", "responsivo"],
     "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-curved-sections",
     "demo": "https://jvmdo.github.io/frontend-mentor-challenges/interactive-card-details-form/"
+  },
+  {
+    "id": "1cb5a975-a8b5-41e2-b616-db0c8ad215f5",
+    "name": "Drum Kit",
+    "image": "/drum-kit.png",
+    "description": "Toque bateria com o teclado do computador!",
+    "tags": ["html", "css", "javascript", "dom"],
+    "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html",
+    "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html"
+  },
+  {
+    "id": "db88a6f5-3829-406d-a1f2-a3bb188e7680",
+    "name": "The Simon Game",
+    "image": "/simon.jpeg",
+    "description": "Versão web do famoso jogo que te desafia a memorizar a sequência das cores criada pela máquina.",
+    "tags": ["html", "css", "javascript", "jquery"],
+    "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/JQuery%20Challenge%20-%20The%20Simon%20Game",
+    "demo": "https://jvmdo.github.io/web-development-bootcamp/JQuery%20Challenge%20-%20The%20Simon%20Game/"
   }
 ]
