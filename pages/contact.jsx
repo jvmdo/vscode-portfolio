@@ -45,7 +45,7 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Contate-me pelas redes</h3>
         <ContactCode />
       </div>
-      <div>
+      {/* <div>
         <h3 className={styles.heading}>Ou me envie uma mensagem daqui mesmo</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
@@ -96,7 +96,7 @@ const ContactPage = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

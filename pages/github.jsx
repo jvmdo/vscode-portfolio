@@ -32,12 +32,6 @@ const GithubPage = ({ repos, user }) => {
           <h3>{user.followers} followers</h3>
         </div>
       </div>
-      <h2>Destaques</h2>
-      <div className={styles.container}>
-        {repos.map((repo) => (
-          <RepoCard key={repo.id} repo={repo} />
-        ))}
-      </div>
       <div className={styles.contributions}>
         <GitHubCalendar
           username={process.env.NEXT_PUBLIC_GITHUB_USERNAME}
@@ -45,6 +39,12 @@ const GithubPage = ({ repos, user }) => {
           hideColorLegend
           style={{ marginTop: "3rem" }}
         />
+      </div>
+      <h2>Recentemente atualizados</h2>
+      <div className={styles.container}>
+        {repos.map((repo) => (
+          <RepoCard key={repo.id} repo={repo} />
+        ))}
       </div>
     </>
   );
@@ -57,21 +57,9 @@ export async function getStaticProps() {
   const user = await userRes.json();
 
   const repoRes = await fetch(
-    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100`
+    `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=10&sort=updated`
   );
   let repos = await repoRes.json();
-
-  const names = [
-    "30-days-of-react",
-    "rocketseat-ignite",
-    "framework-frontend-practice",
-    "frontend-mentor-challenges",
-    "wes-bos-courses",
-    "web-development-bootcamp",
-    "ead-mg-repo",
-  ];
-
-  repos = repos.filter(({ name }) => names.includes(name));
 
   return {
     props: { title: "GitHub", repos, user },
