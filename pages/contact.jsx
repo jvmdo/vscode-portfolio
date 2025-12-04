@@ -1,43 +1,45 @@
 import { useState } from "react";
 import ContactCode from "../components/ContactCode";
 import styles from "../styles/ContactPage.module.css";
-import { sendForm } from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const ContactPage = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
+  const [fields, setFields] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [isLoading, setIsLoading] = useState(false);
 
-  async function submitForm(event) {
+  const submitForm = async (event) => {
     event.preventDefault();
+    setIsLoading(true);
 
-    const res = await sendForm(
+    const res = await emailjs.sendForm(
       process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
       process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
       event.currentTarget,
-      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+      {
+        publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      }
     );
-
-    /* const res = await fetch("/api/send-email", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ name, email, subject, message }),
-    }); */
 
     if (res.status === 200) {
       alert("Sua mensagem foi enviada 😀 Obrigado!");
-      setName("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
+      setFields({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
     } else {
-      alert("Falha no serviço de mensagens 😨 Mensagem não enviada 😢");
+      alert("Falha no serviço de email 😨 Mensagem não enviada 😢");
       console.log(res);
     }
-  }
+
+    setIsLoading(false);
+  };
 
   return (
     <div className={styles.container}>
@@ -45,8 +47,8 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Contate-me pelas redes</h3>
         <ContactCode />
       </div>
-      {/* <div>
-        <h3 className={styles.heading}>Ou me envie uma mensagem daqui mesmo</h3>
+      <div>
+        <h3 className={styles.heading}>Ou me envie um email daqui mesmo</h3>
         <form className={styles.form} onSubmit={submitForm}>
           <div className={styles.flex}>
             <div>
@@ -55,8 +57,8 @@ const ContactPage = () => {
                 type="text"
                 name="name"
                 id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
+                value={fields.name}
+                onChange={(e) => setFields({ ...fields, name: e.target.value })}
                 required
               />
             </div>
@@ -66,8 +68,10 @@ const ContactPage = () => {
                 type="email"
                 name="email"
                 id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                value={fields.email}
+                onChange={(e) =>
+                  setFields({ ...fields, email: e.target.value })
+                }
                 required
               />
             </div>
@@ -78,8 +82,10 @@ const ContactPage = () => {
               type="text"
               name="subject"
               id="subject"
-              value={subject}
-              onChange={(e) => setSubject(e.target.value)}
+              value={fields.subject}
+              onChange={(e) =>
+                setFields({ ...fields, subject: e.target.value })
+              }
               required
             />
           </div>
@@ -89,14 +95,19 @@ const ContactPage = () => {
               name="message"
               id="message"
               rows="5"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
+              value={fields.message}
+              onChange={(e) =>
+                setFields({ ...fields, message: e.target.value })
+              }
               required
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <div>
+            <button disabled={isLoading}>Submit</button>
+            {isLoading && <span>Enviando...</span>}
+          </div>
         </form>
-      </div> */}
+      </div>
     </div>
   );
 };

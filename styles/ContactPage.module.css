@@ -32,7 +32,7 @@
 
 .form input,
 .form textarea {
-  font-family: 'JetBrains Mono';
+  font-family: "JetBrains Mono";
   margin-bottom: 1.5rem;
   background: var(--article-bg);
   color: var(--text-color);
@@ -57,6 +57,16 @@
   font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.form button:disabled {
+  opacity: 50%;
+}
+
+.form button:disabled + span {
+  font-size: x-small;
+  margin-inline-start: 0.5rem;
+  vertical-align: bottom;
 }
 
 .heading {
