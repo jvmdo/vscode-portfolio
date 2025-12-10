@@ -8,12 +8,17 @@ const explorerItems = [
   {
     name: "home.jsx",
     path: "/",
-    icon: "react_icon.svg",
+    icon: "html_icon.svg",
   },
   {
     name: "about.html",
     path: "/about",
-    icon: "html_icon.svg",
+    icon: "js_icon.svg",
+  },
+  {
+    name: "projects.js",
+    path: "/projects",
+    icon: "react_icon.svg",
   },
   {
     name: "contact.css",
@@ -21,9 +26,9 @@ const explorerItems = [
     icon: "css_icon.svg",
   },
   {
-    name: "projects.js",
-    path: "/projects",
-    icon: "js_icon.svg",
+    name: "documents.pdf",
+    path: "/documents",
+    icon: "pdf_icon.svg",
   },
   {
     name: "github.md",

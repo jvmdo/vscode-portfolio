@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import FilesIcon from "./icons/FilesIcon";
 import GithubIcon from "./icons/GithubIcon";
 import CodeIcon from "./icons/CodeIcon";
-import PencilIcon from "./icons/PencilIcon";
+import Certificate from "./icons/CertificateIcon";
 import MailIcon from "./icons/MailIcon";
 import AccountIcon from "./icons/AccountIcon";
 import SettingsIcon from "./icons/SettingsIcon";
@@ -13,18 +13,27 @@ const sidebarTopItems = [
   {
     Icon: FilesIcon,
     path: "/",
+    title: "Home",
   },
   {
     Icon: CodeIcon,
     path: "/projects",
+    title: "Projects",
+  },
+  {
+    Icon: Certificate,
+    path: "/documents",
+    title: "Documents",
   },
   {
     Icon: MailIcon,
     path: "/contact",
+    title: "Contact",
   },
   {
     Icon: GithubIcon,
     path: "/github",
+    title: "Github",
   },
 ];
 
@@ -32,10 +41,12 @@ const sidebarBottomItems = [
   {
     Icon: AccountIcon,
     path: "/about",
+    title: "About",
   },
   {
     Icon: SettingsIcon,
     path: "/settings",
+    title: "Settings",
   },
 ];
 
@@ -45,9 +56,10 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.sidebarTop}>
-        {sidebarTopItems.map(({ Icon, path }) => (
+        {sidebarTopItems.map(({ Icon, path, title }) => (
           <Link href={path} key={path}>
             <div
+              title={title}
               className={`${styles.iconContainer} ${
                 router.pathname === path && styles.active
               }`}
