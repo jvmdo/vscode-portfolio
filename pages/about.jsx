@@ -8,9 +8,9 @@ const AboutPage = () => {
       <p className={styles.paragraph}>
         Em Julho de 2022, concluí meu bacharelado em Engenharia de Computação
         pela Universidade do Estado do Amazonas (UEA). As áreas da computação
-        que mais despertaram meu interesse foram Inteligência Artificial,
-        Sistemas Embarcados e desenvolvimento de apps. Por conta disso, apliquei
-        conhecimentos desses três ramos para desenvolver{" "}
+        que mais despertaram meu interesse foram inteligência artificial,
+        sistemas embarcados e desenvolvimento de software. Por conta disso,
+        apliquei conhecimentos dessas três disciplinas para desenvolver{" "}
         <a href="https://github.com/jvmdo/ead-mg-repo" target="_blank">
           um protótipo de sistema de portaria inteligente
         </a>{" "}
@@ -43,7 +43,7 @@ const AboutPage = () => {
       </p>
       <a
         className={styles.button}
-        href="JoaoOliveira-CV.pdf"
+        href="/curriculum.pdf"
         rel="noopener noreferrer"
         target="_blank"
         download

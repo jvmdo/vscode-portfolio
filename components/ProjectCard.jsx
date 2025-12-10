@@ -4,7 +4,11 @@ import styles from "../styles/ProjectCard.module.css";
 const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
-      <a href={project.demo} target="_blank" title="Ir para demo">
+      <a
+        href={project.demo ?? project.source_code}
+        target="_blank"
+        title="Ir para demo"
+      >
         <Image
           src={project.image}
           height={300}
@@ -32,7 +36,7 @@ const ProjectCard = ({ project }) => {
               rel="noopener noreferrer"
               className={styles.underline}
             >
-              Source Code
+              {project.type ? "Reference" : "Source Code"}
             </a>
           )}
           {project.demo && (

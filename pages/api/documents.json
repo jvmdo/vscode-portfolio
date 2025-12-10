@@ -1,0 +1,56 @@
+[
+  {
+    "id": "e46d6da6-31e4-4a78-9af6-0f4e23078966",
+    "name": "Joy of React",
+    "type": "web",
+    "image": "/certificate-joy-of-react.png",
+    "description": "Certificado de React.js da plataforma Josh Comeau Courses.",
+    "source_code": "https://courses.joshwcomeau.com/certificate/691f9425a7be6a4cca47d29e",
+    "tags": []
+  },
+  {
+    "id": "7284100a-cd3d-456d-b270-28b0c3c27adf",
+    "name": "Ignite React",
+    "type": "web",
+    "image": "/certificate-rocketseat-react.png",
+    "description": "Certificado de React.js da plataforma Rocketseat.",
+    "source_code": "https://app.rocketseat.com.br/certificates/7284100a-cd3d-456d-b270-28b0c3c27adf",
+    "tags": []
+  },
+  {
+    "id": "0329fe7a-7bd1-4385-90ae-1027917fb3c7",
+    "name": "WebDev Bootcamp",
+    "type": "web",
+    "image": "/certificate-udemy-webdev.jpg",
+    "description": "Certificado de desenvolvimento full-stack por Dr. Angela Yu na plataforma Udemy.",
+    "source_code": "https://www.udemy.com/certificate/UC-951adeb0-30da-42d2-853a-37539ec97b67/",
+    "tags": []
+  },
+  {
+    "id": "390d0c5e-d7e2-482e-a0b3-8d56255bfffc",
+    "name": "Android",
+    "type": "mobile",
+    "image": "/certificate-udemy-android.jpg",
+    "description": "Certificado de desenvolvimento Android por Jamilton Damasceno na plataforma Udemy.",
+    "source_code": "https://www.udemy.com/certificate/UC-d54e9a7e-e22e-4663-969b-883dae61120b/",
+    "tags": []
+  },
+  {
+    "id": "58c09684-e4ec-4489-a70a-0eca1e785170",
+    "name": "Inglês (B2)",
+    "type": "english",
+    "image": "/certificate-english.png",
+    "description": "Certificado de inglês da plataforma MyEnglishOnline. Nível avançado (B2).",
+    "source_code": "/certificate-english.pdf",
+    "tags": []
+  },
+  {
+    "id": "cc54325b-b3bb-4675-a6cf-fbb0086a2a84",
+    "name": "Currículo",
+    "type": "others",
+    "image": "/curriculum.png",
+    "description": "Visualize e baixe meu currículo em PDF.",
+    "source_code": "/curriculum.pdf",
+    "tags": []
+  }
+]
