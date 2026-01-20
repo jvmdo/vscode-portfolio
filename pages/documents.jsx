@@ -11,9 +11,7 @@ function DocumentsPage({ documents }) {
   return (
     <section>
       <h2 className={styles.title}>Documentos</h2>
-      <p className={styles.paragraph}>
-        Meus certificados e documentos mais relevantes.
-      </p>
+      <p className={styles.paragraph}>Certificados e documentos relevantes.</p>
 
       <article>
         <h3 className={styles.subtitle}>Web Development</h3>
