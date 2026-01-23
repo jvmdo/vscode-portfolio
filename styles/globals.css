@@ -16,7 +16,7 @@ a:visited {
   color: plum;
 }
 
-/* Tags */
+/* Tech badges */
 .react {
   border: 1px solid rgb(97, 218, 251);
 }
@@ -38,24 +38,24 @@ a:visited {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.styled-component {
+.styled-components {
   border: 1px solid rgb(118, 74, 188);
 }
-.styled-component:hover {
+.styled-components:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.react-router-dom {
+.router-dom {
   border: 1px solid rgb(82, 143, 240);
 }
-.react-router-dom:hover {
+.router-dom:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.react-hook-form {
+.hook-form {
   border: 1px solid rgb(74, 134, 142);
 }
-.react-hook-form:hover {
+.hook-form:hover {
   background: rgba(74, 134, 142, 0.25);
 }
 
@@ -66,19 +66,12 @@ a:visited {
   background: rgb(0, 209, 178, 0.25);
 }
 
-.local {
+.local-storage {
   border: 1px solid rgb(62, 43, 31);
 }
 
-.local:hover {
+.local-storage:hover {
   background: rgba(62, 43, 31, 0.25);
-}
-
-.responsivo {
-  border: 1px solid rgb(231, 58, 153);
-}
-.responsivo:hover {
-  background: rgba(231, 58, 153, 0.25);
 }
 
 .date-fns {
@@ -96,10 +89,10 @@ a:visited {
 }
 
 .zod {
-  border: 1px solid rgb(131, 182, 21);
+  border: 1px solid rgb(21, 32, 182);
 }
 .zod:hover {
-  background: rgba(131, 182, 21, 0.25);
+  background: rgba(45, 68, 201, 0.25);
 }
 
 .bootstrap {
@@ -142,4 +135,200 @@ a:visited {
 }
 .jquery:hover {
   background: rgba(21, 182, 37, 0.25);
+}
+
+.next-auth {
+  border: 1px solid rgb(7, 23, 48);
+}
+.next-auth:hover {
+  background: rgba(35, 77, 168, 0.25);
+}
+
+.google-apis {
+  border: 1px solid rgb(236, 70, 70);
+}
+.google-apis:hover {
+  background: rgba(241, 64, 64, 0.25);
+}
+
+.tanstack-query {
+  border: 1px solid rgb(255, 123, 0);
+}
+.tanstack-query:hover {
+  background: rgba(243, 182, 13, 0.25);
+}
+
+.prisma {
+  border: 1px solid rgb(34, 47, 172);
+}
+.prisma:hover {
+  background: rgba(69, 75, 150, 0.25);
+}
+
+.dayjs {
+  border: 1px solid rgb(207, 219, 30);
+}
+.dayjs:hover {
+  background: rgba(175, 196, 59, 0.25);
+}
+
+.nookies {
+  border: 1px solid rgb(56, 58, 25);
+}
+.nookies:hover {
+  background: rgba(63, 70, 27, 0.25);
+}
+
+.material-ui {
+  border: 1px solid rgb(45, 9, 78);
+}
+.material-ui:hover {
+  background: rgba(52, 14, 88, 0.25);
+}
+
+.axios {
+  border: 1px solid rgb(150, 212, 35);
+}
+.axios:hover {
+  background: rgba(118, 177, 42, 0.25);
+}
+
+.stripe {
+  border: 1px solid rgb(0, 255, 115);
+}
+.stripe:hover {
+  background: rgba(78, 255, 151, 0.25);
+}
+
+.tanstack-pacer {
+  border: 1px solid rgb(20, 151, 79);
+}
+.tanstack-pacer:hover {
+  background: rgba(52, 136, 87, 0.25);
+}
+
+.match-sorter {
+  border: 1px solid rgb(43, 7, 20);
+}
+.match-sorter:hover {
+  background: rgba(59, 23, 41, 0.25);
+}
+
+.base-ui {
+  border: 1px solid rgb(0, 64, 80);
+}
+.base-ui:hover {
+  background: rgba(29, 79, 126, 0.25);
+}
+
+.radix-ui {
+  border: 1px solid rgb(0, 80, 63);
+}
+.radix-ui:hover {
+  background: rgba(29, 126, 110, 0.25);
+}
+
+.tailwind {
+  border: 1px solid rgb(206, 29, 206);
+}
+.tailwind:hover {
+  background: rgba(167, 65, 167, 0.25);
+}
+
+.motion {
+  border: 1px solid rgb(196, 0, 130);
+}
+.motion:hover {
+  background: rgba(187, 56, 132, 0.25);
+}
+
+.sonner {
+  border: 1px solid rgb(31, 2, 21);
+}
+.sonner:hover {
+  background: rgba(44, 28, 37, 0.25);
+}
+
+.formkit {
+  border: 1px solid rgb(143, 84, 6);
+}
+.formkit:hover {
+  background: rgba(168, 136, 49, 0.25);
+}
+
+.keen-slider {
+  border: 1px solid rgb(255, 225, 56);
+}
+.keen-slider:hover {
+  background: rgba(247, 225, 103, 0.25);
+}
+
+.leaflet {
+  border: 1px solid rgb(60, 255, 0);
+}
+.leaflet:hover {
+  background: rgba(118, 216, 72, 0.25);
+}
+
+.linaria {
+  border: 1px solid rgb(121, 30, 182);
+}
+.linaria:hover {
+  background: rgba(102, 47, 124, 0.25);
+}
+
+.maska {
+  border: 1px solid rgb(182, 30, 157);
+}
+.maska:hover {
+  background: rgba(124, 47, 98, 0.25);
+}
+
+.error-boundary {
+  border: 1px solid rgb(192, 47, 47);
+}
+.error-boundary:hover {
+  background: rgba(124, 47, 47, 0.25);
+}
+
+.markdown {
+  border: 1px solid rgb(53, 40, 22);
+}
+.markdown:hover {
+  background: rgba(129, 110, 81, 0.25);
+}
+
+.github-apis {
+  border: 1px solid rgb(17, 9, 53);
+}
+.github-apis:hover {
+  background: rgba(39, 24, 58, 0.25);
+}
+
+.math-js {
+  border: 1px solid rgb(204, 185, 18);
+}
+.math-js:hover {
+  background: rgba(204, 175, 80, 0.25);
+}
+
+.swr {
+  border: 1px solid rgb(56, 53, 26);
+}
+.swr:hover {
+  background: rgba(199, 185, 138, 0.25);
+}
+
+.stitches {
+  border: 1px solid rgb(231, 58, 153);
+}
+.stitches:hover {
+  background: rgba(231, 58, 153, 0.25);
+}
+
+.bff {
+  border: 1px solid rgb(0, 0, 0);
+}
+.bff:hover {
+  background: rgba(80, 78, 79, 0.25);
 }
