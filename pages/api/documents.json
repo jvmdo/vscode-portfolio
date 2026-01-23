@@ -46,10 +46,10 @@
   },
   {
     "id": "58c09684-e4ec-4489-a70a-0eca1e785170",
-    "name": "Inglês (B2)",
+    "name": "Inglês",
     "type": "english",
     "image": "/certificate-english.png",
-    "description": "Curso de inglês na plataforma MyEnglishOnline. Nível avançado (B2).",
+    "description": "Curso de inglês na plataforma MyEnglishOnline. Nível avançado.",
     "source_code": "/certificate-english.pdf",
     "tags": []
   },

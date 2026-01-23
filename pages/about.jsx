@@ -11,7 +11,7 @@ const AboutPage = () => {
         que mais despertaram meu interesse foram inteligência artificial,
         sistemas embarcados e desenvolvimento de software. Por conta disso,
         apliquei conhecimentos dessas três disciplinas para desenvolver{" "}
-        <a href="https://github.com/jvmdo/ead-mg-repo" target="_blank">
+        <a href="https://github.com/jvmdo/monografia-tcc" target="_blank">
           um protótipo de sistema de portaria inteligente
         </a>{" "}
         que utilizei como trabalho de conclusão. Desde formado, venho me
@@ -20,9 +20,18 @@ const AboutPage = () => {
       <p className={styles.paragraph}>
         Minha última experiência profissional foi como desenvolvedor web
         full-stack no Instituto de Controle do Espaço Aéreo (ICEA), São José dos
-        Campos - SP. Nesse cargo, fui responsável por desenvolver duas
-        ferramentas web completas: um visualizador de espaço aéreo e um
-        gerenciador de arquivos.
+        Campos - SP, onde fiz parte da equipe do projeto BR-UTM.
+      </p>
+      <p className={styles.paragraph}>
+        O projeto BR-UTM tem como objetivo implantar UTM no espaço aéreo
+        brasileiro, em uma ação conjunta entre o DECEA e empresas nacionais e
+        internacionais. UTM, ou gerenciamento de tráfego de aeronaves não
+        tripuladas, é um conjunto de diretrizes para controle e coordenação de
+        operações de drones de forma digital e majoritariamente automatizada.
+      </p>
+      <p className={styles.paragraph}>
+        Nesse cargo, fui responsável por desenvolver duas ferramentas web
+        completas: um visualizador de espaço aéreo e um gerenciador de arquivos.
       </p>
       <p className={styles.paragraph}>
         O visualizador de espaço aéreo 2D mostra em tempo real áreas e pontos,
@@ -67,11 +76,11 @@ const AboutPage = () => {
           <AnimatedPieChart name="CSS" percent={80} />
           <AnimatedPieChart name="DOM" percent={65} />
           <AnimatedPieChart name="Next.js" percent={60} />
-          {/* <AnimatedPieChart name="R Router" percent={50} /> */}
-          <AnimatedPieChart name={["T Query", "SWR"]} percent={50} />
-          {/* <AnimatedPieChart name={["Redux", "R Toolkit"]} percent={50} /> */}
+          {/* <AnimatedPieChart name="RR Router" percent={50} /> */}
+          <AnimatedPieChart name={["Tan Query", "SWR"]} percent={60} />
+          {/* <AnimatedPieChart name={["Redux", "RTK"]} percent={50} /> */}
           {/* <AnimatedPieChart name="Zustand" percent={50} /> */}
-          <AnimatedPieChart name="Tailwind" percent={50} />
+          <AnimatedPieChart name="Tailwind" percent={60} />
           {/* <AnimatedPieChart name={["Jest", "Playwright"]} percent={50} /> */}
           <AnimatedPieChart name="Python" percent={90} />
           <AnimatedPieChart name="FastAPI" percent={80} />
@@ -79,7 +88,7 @@ const AboutPage = () => {
           <AnimatedPieChart name="Node.js" percent={50} />
           {/* <AnimatedPieChart name={["Node", "Nest.js"]} percent={50} /> */}
           <AnimatedPieChart name={["Postgres", "Mongo"]} percent={40} />
-          <AnimatedPieChart name="Docker" percent={50} />
+          <AnimatedPieChart name="Docker" percent={40} />
           <AnimatedPieChart name={["Git", "GitHub"]} percent={50} />
           <AnimatedPieChart name={["Figma", "Design"]} percent={15} />
         </fieldset>

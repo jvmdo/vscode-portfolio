@@ -73,9 +73,9 @@
     },
     {
       "id": "73ffb8b5-97ba-47bb-a378-4d308089da69",
-      "name": "Animated Todo App",
+      "name": "Animated DnD Todo App",
       "image": "/animated-todo-app.png",
-      "description": "Clássico to-do list, mas com animações",
+      "description": "Clássico to-do list, mas com drag and drop e animações",
       "tags": ["tailwind", "base-ui", "motion", "formkit"],
       "source_code": "https://github.com/jvmdo/animated-todo-app",
       "demo": "https://animated-todos-jvmdo.netlify.app/"
@@ -110,7 +110,7 @@
       "image": "/ignite-timer.jpeg",
       "description": "Esse app irá ajudá-lo a pôr a técnica Pomodoro em ação!",
       "tags": [
-        "styled-component",
+        "styled-components",
         "router-dom",
         "date-fns",
         "zod",
@@ -126,7 +126,7 @@
       "image": "/coffee-delivery.jpeg",
       "description": "Site de compra e entrega de cafés para uma cafeteria fictícia.",
       "tags": [
-        "styled-component",
+        "styled-components",
         "router-dom",
         "hook-form",
         "immer",
@@ -155,7 +155,7 @@
       "name": "Basic Calculator",
       "image": "/basic-calculator.png",
       "description": "Faça contas aritméticas básicas em 3 temas coloridos.",
-      "tags": ["math-js", "css-modules", "responsive"],
+      "tags": ["math-js", "css-modules"],
       "source_code": "https://github.com/jvmdo/calculator-basic",
       "demo": "https://basic-calculator-jvmdo.netlify.app/"
     }
@@ -185,8 +185,8 @@
       "image": "/clipboard.jpg",
       "description": "Landing page responsiva com header, body e footer desenvolvido utilizando HTML e CSS apenas.",
       "tags": ["html", "css"],
-      "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/clipboard-landing-page-master",
-      "demo": "https://jvmdo.github.io/frontend-mentor-challenges/clipboard-landing-page-master/"
+      "source_code": "https://github.com/jvmdo/frontend-mentor-basic-challenges/tree/main/clipboard-landing-page-master",
+      "demo": "https://jvmdo.github.io/frontend-mentor-basic-challenges/clipboard-landing-page-master/"
     },
     {
       "id": "efd1a8de-6a85-421b-9c76-9a573604e23a",
@@ -194,8 +194,8 @@
       "image": "/card-form.jpg",
       "description": "Formulário para preenchimento de dados de cartão de crédito com validação e mascaramento.",
       "tags": ["html", "css", "javascript", "dom"],
-      "source_code": "https://github.com/jvmdo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-curved-sections",
-      "demo": "https://jvmdo.github.io/frontend-mentor-challenges/interactive-card-details-form/"
+      "source_code": "https://github.com/jvmdo/frontend-mentor-basic-challenges/tree/main/huddle-landing-page-with-curved-sections",
+      "demo": "https://jvmdo.github.io/frontend-mentor-basic-challenges/interactive-card-details-form/"
     },
     {
       "id": "1cb5a975-a8b5-41e2-b616-db0c8ad215f5",
