@@ -4,7 +4,7 @@
       "id": "008f61d1-d89c-4a82-a50b-eddbb3248fa9",
       "name": "Bookwise",
       "image": "/bookwise.png",
-      "description": "Aplicativo web para escrita e leitura de avaliações de livros dos mais diversos gêneros.",
+      "description": "Leia, procure e escreva avaliações de livros dos mais diversos gêneros. Experimente acessando como visitante.",
       "tags": [
         "next-auth",
         "swr",
@@ -36,16 +36,43 @@
       "demo": "https://ignite-call-jvmdo.vercel.app/"
     },
     {
+      "id": "8e9816ed-53e5-4836-9438-dce09f41f395",
+      "name": "Space Tourism",
+      "image": "/space-tourism.png",
+      "description": "Site de conteúdo estático (SSG) com desafios de layout e transições animadas entre páginas e tabs.",
+      "tags": ["tailwind", "radix-ui"],
+      "source_code": "https://github.com/jvmdo/space-tourism-website",
+      "demo": "https://space-tourism-jvmdo.vercel.app/"
+    },
+    {
       "id": "5536fea3-2a4a-4bb6-83b4-8da004cc35fa",
       "name": "Ignite Shop",
       "image": "/ignite-shop.png",
-      "description": "Loja virtual fictícia para venda de camisas.",
+      "description": "Loja virtual fictícia integrada ao sistema de pagamentos Stripe.",
       "tags": ["material-ui", "stitches", "axios", "stripe"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-shop-2.0",
       "demo": "https://ignite-shop-2-jvmdo.netlify.app/"
     }
   ],
   "vite": [
+    {
+      "id": "0ff2caca-c6d0-43ee-8267-391219ce220a",
+      "name": "Jobs Listings",
+      "image": "/job-listings.png",
+      "description": "Lista paginada com filtragem. Estado na URL com nuqs, lógica de rollback em caso de erro, MSW para dados mockados.",
+      "tags": [
+        "tanstack-query",
+        "nuqs",
+        "ark-ui",
+        "motion",
+        "tailwind",
+        "sonner",
+        "msw",
+        "zod"
+      ],
+      "source_code": "https://github.com/jvmdo/static-job-listings",
+      "demo": "https://static-job-listings-jvmdo.netlify.app/"
+    },
     {
       "id": "cc54325b-b3bb-4675-a6cf-fbb0086a2a84",
       "name": "Weather Now",
@@ -59,14 +86,14 @@
         "radix-ui",
         "css-modules"
       ],
-      "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/bookwise",
+      "source_code": "https://github.com/jvmdo/weather-now",
       "demo": "https://weather-now-jvmdo.netlify.app/"
     },
     {
       "id": "f4ae0ba0-b895-43c2-b8b6-77ace3ef62a5",
       "name": "URL Shortening App",
       "image": "/url-shortening-app.png",
-      "description": "Crie URLs curtas utilizando CleanURI API.",
+      "description": "Crie URLs curtas utilizando CleanURI API e deixe-as salvas no seu browser.",
       "tags": ["tailwind", "base-ui", "tanstack-query", "motion", "sonner"],
       "source_code": "https://github.com/jvmdo/url-shortening-app",
       "demo": "https://url-shortening-jvmdo.netlify.app/"
@@ -75,7 +102,7 @@
       "id": "73ffb8b5-97ba-47bb-a378-4d308089da69",
       "name": "Animated DnD Todo App",
       "image": "/animated-todo-app.png",
-      "description": "Clássico to-do list, mas com drag and drop e animações",
+      "description": "Clássico to-do list, mas com drag and drop, filtragem e animações!",
       "tags": ["tailwind", "base-ui", "motion", "formkit"],
       "source_code": "https://github.com/jvmdo/animated-todo-app",
       "demo": "https://animated-todos-jvmdo.netlify.app/"
@@ -88,6 +115,15 @@
       "tags": ["axios", "radix-ui", "keen-slider", "styled-components", "zod"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/dt-money",
       "demo": "https://dt-money-jvmdo.netlify.app/"
+    },
+    {
+      "id": "f1138df3-a1a2-466f-8a44-9b03ddf807e4",
+      "name": "Loterias",
+      "image": "/loterias.png",
+      "description": "Veja resultados de loterias da Caixa utilizando uma API fictícia.",
+      "tags": ["router-dom", "stitches", "alova", "radix-ui"],
+      "source_code": "https://github.com/jvmdo/loterias-app",
+      "demo": "https://jvmdo.github.io/loterias-app/"
     },
     {
       "id": "196da51b-0c4f-450b-ada6-5fb08ae024b3",
@@ -158,62 +194,6 @@
       "tags": ["math-js", "css-modules"],
       "source_code": "https://github.com/jvmdo/calculator-basic",
       "demo": "https://basic-calculator-jvmdo.netlify.app/"
-    }
-  ],
-  "vanilla": [
-    {
-      "id": "af4006b4-072d-40af-9889-32e8f2c50567",
-      "name": "Bootstrap 5 landing page",
-      "image": "/kreative.jpg",
-      "description": "Landing page com navbar, buttons, cards, form entre outros componentes.",
-      "tags": ["html", "css", "bootstrap"],
-      "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-kreative-landing-page",
-      "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-kreative-landing-page/"
-    },
-    {
-      "id": "9ec943d5-4456-4d65-9ef4-24ecb6a3fb22",
-      "name": "Bootstrap 5 landing page II ",
-      "image": "/newbies.jpg",
-      "description": "Landing page com navbar, buttons, cards, form entre outros componentes.",
-      "tags": ["html", "css", "bootstrap"],
-      "source_code": "https://github.com/jvmdo/framework-frontend-practice/tree/master/bootstrap-w3-newbies-page",
-      "demo": "https://jvmdo.github.io/framework-frontend-practice/bootstrap-w3-newbies-page/"
-    },
-    {
-      "id": "ff224009-105a-47a6-80b1-e3e03941bb05",
-      "name": "Vanilla landing page",
-      "image": "/clipboard.jpg",
-      "description": "Landing page responsiva com header, body e footer desenvolvido utilizando HTML e CSS apenas.",
-      "tags": ["html", "css"],
-      "source_code": "https://github.com/jvmdo/frontend-mentor-basic-challenges/tree/main/clipboard-landing-page-master",
-      "demo": "https://jvmdo.github.io/frontend-mentor-basic-challenges/clipboard-landing-page-master/"
-    },
-    {
-      "id": "efd1a8de-6a85-421b-9c76-9a573604e23a",
-      "name": "Credit Card Form",
-      "image": "/card-form.jpg",
-      "description": "Formulário para preenchimento de dados de cartão de crédito com validação e mascaramento.",
-      "tags": ["html", "css", "javascript", "dom"],
-      "source_code": "https://github.com/jvmdo/frontend-mentor-basic-challenges/tree/main/huddle-landing-page-with-curved-sections",
-      "demo": "https://jvmdo.github.io/frontend-mentor-basic-challenges/interactive-card-details-form/"
-    },
-    {
-      "id": "1cb5a975-a8b5-41e2-b616-db0c8ad215f5",
-      "name": "Drum Kit",
-      "image": "/drum-kit.png",
-      "description": "Toque bateria com o teclado do computador!",
-      "tags": ["html", "css", "javascript", "dom"],
-      "source_code": "https://github.com/jvmdo/wes-bos-courses/tree/master/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html",
-      "demo": "https://jvmdo.github.io/wes-bos-courses/JavaScript30/01%20-%20JavaScript%20Drum%20Kit/index-START.html"
-    },
-    {
-      "id": "db88a6f5-3829-406d-a1f2-a3bb188e7680",
-      "name": "The Simon Game",
-      "image": "/simon.jpeg",
-      "description": "Versão web do famoso jogo que te desafia a memorizar a sequência das cores criada pela máquina.",
-      "tags": ["html", "css", "javascript", "jquery"],
-      "source_code": "https://github.com/jvmdo/web-development-bootcamp/tree/main/JQuery%20Challenge%20-%20The%20Simon%20Game",
-      "demo": "https://jvmdo.github.io/web-development-bootcamp/JQuery%20Challenge%20-%20The%20Simon%20Game/"
     }
   ]
 }
