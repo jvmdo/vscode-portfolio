@@ -71,25 +71,27 @@ const AboutPage = () => {
             <span>Básico</span>
           </legend>
           <AnimatedPieChart name="JavaScript" percent={90} />
-          <AnimatedPieChart name="React.js" percent={80} />
-          <AnimatedPieChart name="HTML" percent={80} />
+          <AnimatedPieChart name="React.js" percent={85} />
+          <AnimatedPieChart name="HTML" percent={85} />
           <AnimatedPieChart name="CSS" percent={80} />
           <AnimatedPieChart name="DOM" percent={65} />
-          <AnimatedPieChart name="Next.js" percent={60} />
-          {/* <AnimatedPieChart name="RR Router" percent={50} /> */}
-          <AnimatedPieChart name={["Tan Query", "SWR"]} percent={60} />
-          {/* <AnimatedPieChart name={["Redux", "RTK"]} percent={50} /> */}
-          {/* <AnimatedPieChart name="Zustand" percent={50} /> */}
-          <AnimatedPieChart name="Tailwind" percent={60} />
-          {/* <AnimatedPieChart name={["Jest", "Playwright"]} percent={50} /> */}
+          <AnimatedPieChart name="Next.js" percent={80} />
+          <AnimatedPieChart name="RR Router" percent={50} />
+          <AnimatedPieChart name={["Tan Query", "SWR"]} percent={80} />
+          <AnimatedPieChart name={["Redux", "RTK"]} percent={50} />
+          <AnimatedPieChart name="Zustand" percent={50} />
+          <AnimatedPieChart name="Tailwind" percent={80} />
+          <AnimatedPieChart name={["Vitest", "Playwright"]} percent={50} />
           <AnimatedPieChart name="Python" percent={90} />
           <AnimatedPieChart name="FastAPI" percent={80} />
           <AnimatedPieChart name="Pytest" percent={70} />
           <AnimatedPieChart name="Node.js" percent={50} />
+          <AnimatedPieChart name={["Drizzle", "Prisma"]} percent={50} />
           {/* <AnimatedPieChart name={["Node", "Nest.js"]} percent={50} /> */}
           <AnimatedPieChart name={["Postgres", "Mongo"]} percent={40} />
           <AnimatedPieChart name="Docker" percent={40} />
-          <AnimatedPieChart name={["Git", "GitHub"]} percent={50} />
+          <AnimatedPieChart name={["Git", "GitHub"]} percent={70} />
+          <AnimatedPieChart name="CI/CD" percent={40} />
           <AnimatedPieChart name={["Figma", "Design"]} percent={15} />
         </fieldset>
       </div>

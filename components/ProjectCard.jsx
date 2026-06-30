@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
         />
       </a>
       <div className={styles.content}>
-        <h3>{project.name}</h3>
+        <h4>{project.name}</h4>
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (
