@@ -1,4 +1,41 @@
 {
+  "featured": [
+    {
+      "id": "fcd906c6-bb6a-4c74-8341-f7c699a00179",
+      "name": "Frontpage",
+      "image": "/frontpage.png",
+      "description": "Leia todos os seus RSS blogs em um só lugar, sem distrações, de forma personalizada e organizada.",
+      "details": "<li><strong>Guest Experience</strong>: acesso imediato sem login. Todo o progresso do visitante é migrado de forma invisível caso ele decida criar uma conta.</li><li><strong>Performance (Streaming & Optimistic UI)</strong>: percepção de latência zero utilizando <em>prefetch</em> em Server Components e atualizações instantâneas de UI com TanStack Query.</li><li><strong>Pipeline RSS Resiliente</strong>: parser customizado que normaliza XMLs imprevisíveis e sanitiza HTML/Markdown, prevenindo falhas de segurança (XSS) e quebras de layout.</li><li><strong>Testing Trophy</strong>: cobertura robusta unindo testes E2E (Playwright), mock de rede na interface (MSW) e testes de integração com banco isolado (Vitest + PGLite).</li><li><strong>Arquitetura</strong>: separação de responsabilidades dividindo UI, hooks para orquestração de estado e lógica de negócio local, camada BFF (Validação/Auth/Delegação), Domain Services (regras de negócio) e Infra (Drizzle ORM).</li><li><strong>UX Premium</strong>: virtualização de listas massivas, barra de comandos global (Ctrl+K), onboarding guiado interativo, suporte total a teclado (a11y), cron jobs para atualização de feeds e muito mais (muito mesmo!).</li>",
+      "tags": [
+        "TypeScript",
+        "React.js",
+        "Next.js",
+        "Better Auth",
+        "Tanstack Query",
+        "nuqs",
+        "Zustand",
+        "Hook Form",
+        "TailwindCSS",
+        "shadcn",
+        "Ark UI",
+        "Resend",
+        "Zod",
+        "Drizzle ORM",
+        "Testing Library",
+        "Vitest",
+        "Playwright",
+        "MSW",
+        "PGLite",
+        "PostgreSQL",
+        "Neon",
+        "CI/CD",
+        "Trigger.dev",
+        "Antigravity CLI"
+      ],
+      "source_code": "https://github.com/jvmdo/frontpage-feed-reader",
+      "demo": "https://frontpage-jvmdo.vercel.app/"
+    }
+  ],
   "next": [
     {
       "id": "008f61d1-d89c-4a82-a50b-eddbb3248fa9",
