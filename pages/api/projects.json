@@ -51,6 +51,7 @@
         "hook-form",
         "bff"
       ],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/bookwise",
       "demo": "https://bookwise-jvmdo.vercel.app/"
     },
@@ -69,6 +70,7 @@
         "nookies",
         "bff"
       ],
+      "badges": ["typescript"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-call",
       "demo": "https://ignite-call-jvmdo.vercel.app/"
     },
@@ -78,6 +80,7 @@
       "image": "/space-tourism.png",
       "description": "Site de conteúdo estático (SSG) com desafios de layout e transições animadas entre páginas e tabs.",
       "tags": ["tailwind", "radix-ui"],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/space-tourism-website",
       "demo": "https://space-tourism-jvmdo.vercel.app/"
     },
@@ -87,6 +90,7 @@
       "image": "/ignite-shop.png",
       "description": "Loja virtual fictícia integrada ao sistema de pagamentos Stripe.",
       "tags": ["material-ui", "stitches", "axios", "stripe"],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-shop-2.0",
       "demo": "https://ignite-shop-2-jvmdo.netlify.app/"
     }
@@ -107,6 +111,7 @@
         "msw",
         "zod"
       ],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/static-job-listings",
       "demo": "https://static-job-listings-jvmdo.netlify.app/"
     },
@@ -123,6 +128,7 @@
         "radix-ui",
         "css-modules"
       ],
+      "badges": ["a11y"],
       "source_code": "https://github.com/jvmdo/weather-now",
       "demo": "https://weather-now-jvmdo.netlify.app/"
     },
@@ -132,6 +138,7 @@
       "image": "/url-shortening-app.png",
       "description": "Crie URLs curtas utilizando CleanURI API e deixe-as salvas no seu browser.",
       "tags": ["tailwind", "base-ui", "tanstack-query", "motion", "sonner"],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/url-shortening-app",
       "demo": "https://url-shortening-jvmdo.netlify.app/"
     },
@@ -141,6 +148,7 @@
       "image": "/animated-todo-app.png",
       "description": "Clássico to-do list, mas com drag and drop, filtragem e animações!",
       "tags": ["tailwind", "base-ui", "motion", "formkit"],
+      "badges": ["typescript"],
       "source_code": "https://github.com/jvmdo/animated-todo-app",
       "demo": "https://animated-todos-jvmdo.netlify.app/"
     },
@@ -150,6 +158,7 @@
       "image": "/dt-money.png",
       "description": "Aplicativo web para controle financeiro. Usuários podem inserir, buscar e visualizar suas transações.",
       "tags": ["axios", "radix-ui", "keen-slider", "styled-components", "zod"],
+      "badges": ["typescript"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/dt-money",
       "demo": "https://dt-money-jvmdo.netlify.app/"
     },
@@ -159,6 +168,7 @@
       "image": "/loterias.png",
       "description": "Veja resultados de loterias da Caixa utilizando uma API fictícia.",
       "tags": ["router-dom", "stitches", "alova", "radix-ui"],
+      "badges": ["typescript"],
       "source_code": "https://github.com/jvmdo/loterias-app",
       "demo": "https://jvmdo.github.io/loterias-app/"
     },
@@ -190,6 +200,7 @@
         "immer",
         "local-storage"
       ],
+      "badges": ["typescript"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/ignite-timer",
       "demo": "https://ignite-timer-jvmdo.vercel.app/"
     },
@@ -205,6 +216,7 @@
         "immer",
         "local-storage"
       ],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/coffee-delivery",
       "demo": "https://coffee-delivery-jvmdo.vercel.app/"
     },
@@ -220,6 +232,7 @@
         "hook-form",
         "github-apis"
       ],
+      "badges": ["typescript", "a11y"],
       "source_code": "https://github.com/jvmdo/rocketseat-ignite/tree/main/reactjs/github-blog",
       "demo": "https://github-blog-jvmdo.netlify.app/"
     },

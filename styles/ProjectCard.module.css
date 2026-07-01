@@ -4,6 +4,40 @@
   flex-direction: column;
   border-radius: 20px;
   overflow: hidden;
+  position: relative;
+}
+
+.badgesContainer {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 6px;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.badgeImg,
+.badgeEmoji {
+  width: 14px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badgeImg {
+  object-fit: contain;
+}
+
+.badgeEmoji {
+  font-size: 14px;
+  line-height: 1;
 }
 
 .card:hover {

@@ -28,10 +28,6 @@ const ProjectsPage = ({ projects }) => {
           aprendeu, dificuldades e demais detalhes do projeto
         </li>
       </ul>
-      {/* <p className={styles.paragraph}>
-        A maioria é escrita em TypeScript e há forte preocupação com
-        acessibilidade.
-      </p> */}
 
       <h3 className={styles.subtitle}>Em destaque</h3>
       {featured && <FeaturedProject project={featured} />}

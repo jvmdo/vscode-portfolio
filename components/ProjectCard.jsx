@@ -1,9 +1,38 @@
 import Image from "next/image";
 import styles from "../styles/ProjectCard.module.css";
 
+const BADGE_ICONS = {
+  "typescript": "/stack/typescript.svg",
+  "a11y": "♿"
+};
+
 const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
+      {project.badges && project.badges.length > 0 && (
+        <div className={styles.badgesContainer}>
+          {project.badges.map(badge => {
+            const icon = BADGE_ICONS[badge];
+            if (!icon) return null;
+            if (icon === "♿") {
+              return (
+                <span key={badge} className={styles.badgeEmoji} title={badge}>
+                  {icon}
+                </span>
+              );
+            }
+            return (
+              <img
+                key={badge}
+                src={icon}
+                alt={badge}
+                title={badge}
+                className={styles.badgeImg}
+              />
+            );
+          })}
+        </div>
+      )}
       <a
         href={project.demo ?? project.source_code}
         target="_blank"
