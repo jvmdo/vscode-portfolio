@@ -32,53 +32,52 @@ a:visited {
 }
 
 .typescript {
-  border: 1px solid rgb(67, 153, 52);
+  border: 1px solid rgb(49, 120, 198);
 }
 .typescript:hover {
-  background: rgba(67, 153, 52, 0.25);
+  background: rgba(49, 120, 198, 0.25);
 }
 
 .styled-components {
-  border: 1px solid rgb(118, 74, 188);
+  border: 1px solid rgb(191, 79, 116);
 }
 .styled-components:hover {
-  background: rgba(118, 74, 188, 0.25);
+  background: rgba(191, 79, 116, 0.25);
 }
 
 .router-dom {
-  border: 1px solid rgb(82, 143, 240);
+  border: 1px solid rgb(244, 66, 80);
 }
 .router-dom:hover {
-  background: rgba(82, 143, 240, 0.25);
+  background: rgba(244, 66, 80, 0.25);
 }
 
 .hook-form {
-  border: 1px solid rgb(74, 134, 142);
+  border: 1px solid rgb(236, 89, 144);
 }
 .hook-form:hover {
-  background: rgba(74, 134, 142, 0.25);
+  background: rgba(236, 89, 144, 0.25);
 }
 
 .immer {
-  border: 1px solid rgb(0, 209, 178);
+  border: 1px solid rgb(0, 127, 177);
 }
 .immer:hover {
-  background: rgb(0, 209, 178, 0.25);
+  background: rgba(0, 127, 177, 0.25);
 }
 
 .local-storage {
-  border: 1px solid rgb(62, 43, 31);
+  border: 1px solid rgb(75, 85, 99);
 }
-
 .local-storage:hover {
-  background: rgba(62, 43, 31, 0.25);
+  background: rgba(75, 85, 99, 0.25);
 }
 
 .date-fns {
-  border: 1px solid rgb(255, 65, 84);
+  border: 1px solid rgb(251, 93, 43);
 }
 .date-fns:hover {
-  background: rgba(255, 65, 84, 0.25);
+  background: rgba(251, 93, 43, 0.25);
 }
 
 .css-modules {
@@ -89,234 +88,234 @@ a:visited {
 }
 
 .zod {
-  border: 1px solid rgb(21, 32, 182);
+  border: 1px solid rgb(48, 104, 183);
 }
 .zod:hover {
-  background: rgba(45, 68, 201, 0.25);
+  background: rgba(48, 104, 183, 0.25);
 }
 
 .bootstrap {
-  border: 1px solid rgb(115, 21, 182);
+  border: 1px solid rgb(121, 82, 179);
 }
 .bootstrap:hover {
-  background: rgba(115, 21, 182, 0.25);
+  background: rgba(121, 82, 179, 0.25);
 }
 
 .html {
-  border: 1px solid rgb(182, 75, 21);
+  border: 1px solid rgb(227, 79, 38);
 }
 .html:hover {
-  background: rgba(182, 75, 21, 0.25);
+  background: rgba(227, 79, 38, 0.25);
 }
 
 .css {
-  border: 1px solid rgb(0, 112, 243);
+  border: 1px solid rgb(38, 77, 228);
 }
 .css:hover {
-  background: rgba(0, 112, 243, 0.25);
+  background: rgba(38, 77, 228, 0.25);
 }
 
 .javascript {
-  border: 1px solid rgb(182, 179, 21);
+  border: 1px solid rgb(247, 223, 30);
 }
 .javascript:hover {
-  background: rgba(182, 179, 21, 0.25);
+  background: rgba(247, 223, 30, 0.25);
 }
 
 .dom {
-  border: 1px solid rgb(182, 118, 21);
+  border: 1px solid rgb(0, 90, 156);
 }
 .dom:hover {
-  background: rgba(182, 118, 21, 0.25);
+  background: rgba(0, 90, 156, 0.25);
 }
 
 .jquery {
-  border: 1px solid rgb(21, 182, 37);
+  border: 1px solid rgb(7, 105, 173);
 }
 .jquery:hover {
-  background: rgba(21, 182, 37, 0.25);
+  background: rgba(7, 105, 173, 0.25);
 }
 
 .next-auth {
-  border: 1px solid rgb(7, 23, 48);
+  border: 1px solid rgb(52, 109, 241);
 }
 .next-auth:hover {
-  background: rgba(35, 77, 168, 0.25);
+  background: rgba(52, 109, 241, 0.25);
 }
 
 .google-apis {
-  border: 1px solid rgb(236, 70, 70);
+  border: 1px solid rgb(66, 133, 244);
 }
 .google-apis:hover {
-  background: rgba(241, 64, 64, 0.25);
+  background: rgba(66, 133, 244, 0.25);
 }
 
 .tanstack-query {
-  border: 1px solid rgb(255, 123, 0);
+  border: 1px solid rgb(255, 65, 84);
 }
 .tanstack-query:hover {
-  background: rgba(243, 182, 13, 0.25);
+  background: rgba(255, 65, 84, 0.25);
 }
 
 .prisma {
-  border: 1px solid rgb(34, 47, 172);
+  border: 1px solid rgb(12, 52, 75);
 }
 .prisma:hover {
-  background: rgba(69, 75, 150, 0.25);
+  background: rgba(12, 52, 75, 0.25);
 }
 
 .dayjs {
-  border: 1px solid rgb(207, 219, 30);
+  border: 1px solid rgb(251, 90, 90);
 }
 .dayjs:hover {
-  background: rgba(175, 196, 59, 0.25);
+  background: rgba(251, 90, 90, 0.25);
 }
 
 .nookies {
-  border: 1px solid rgb(56, 58, 25);
+  border: 1px solid rgb(139, 90, 43);
 }
 .nookies:hover {
-  background: rgba(63, 70, 27, 0.25);
+  background: rgba(139, 90, 43, 0.25);
 }
 
 .material-ui {
-  border: 1px solid rgb(45, 9, 78);
+  border: 1px solid rgb(0, 127, 255);
 }
 .material-ui:hover {
-  background: rgba(52, 14, 88, 0.25);
+  background: rgba(0, 127, 255, 0.25);
 }
 
 .axios {
-  border: 1px solid rgb(150, 212, 35);
+  border: 1px solid rgb(90, 41, 227);
 }
 .axios:hover {
-  background: rgba(118, 177, 42, 0.25);
+  background: rgba(90, 41, 227, 0.25);
 }
 
 .stripe {
-  border: 1px solid rgb(0, 255, 115);
+  border: 1px solid rgb(99, 91, 255);
 }
 .stripe:hover {
-  background: rgba(78, 255, 151, 0.25);
+  background: rgba(99, 91, 255, 0.25);
 }
 
 .tanstack-pacer {
   border: 1px solid rgb(20, 151, 79);
 }
 .tanstack-pacer:hover {
-  background: rgba(52, 136, 87, 0.25);
+  background: rgba(20, 151, 79, 0.25);
 }
 
 .match-sorter {
   border: 1px solid rgb(43, 7, 20);
 }
 .match-sorter:hover {
-  background: rgba(59, 23, 41, 0.25);
+  background: rgba(43, 7, 20, 0.25);
 }
 
 .base-ui {
   border: 1px solid rgb(0, 64, 80);
 }
 .base-ui:hover {
-  background: rgba(29, 79, 126, 0.25);
+  background: rgba(0, 64, 80, 0.25);
 }
 
 .radix-ui {
-  border: 1px solid rgb(0, 80, 63);
+  border: 1px solid rgb(62, 99, 221);
 }
 .radix-ui:hover {
-  background: rgba(29, 126, 110, 0.25);
+  background: rgba(62, 99, 221, 0.25);
 }
 
 .tailwind {
-  border: 1px solid rgb(206, 29, 206);
+  border: 1px solid rgb(56, 189, 248);
 }
 .tailwind:hover {
-  background: rgba(167, 65, 167, 0.25);
+  background: rgba(56, 189, 248, 0.25);
 }
 
 .motion {
   border: 1px solid rgb(196, 0, 130);
 }
 .motion:hover {
-  background: rgba(187, 56, 132, 0.25);
+  background: rgba(196, 0, 130, 0.25);
 }
 
 .sonner {
-  border: 1px solid rgb(31, 2, 21);
+  border: 1px solid rgb(245, 158, 11);
 }
 .sonner:hover {
-  background: rgba(44, 28, 37, 0.25);
+  background: rgba(245, 158, 11, 0.25);
 }
 
 .formkit {
-  border: 1px solid rgb(143, 84, 6);
+  border: 1px solid rgb(16, 185, 129);
 }
 .formkit:hover {
-  background: rgba(168, 136, 49, 0.25);
+  background: rgba(16, 185, 129, 0.25);
 }
 
 .keen-slider {
   border: 1px solid rgb(255, 225, 56);
 }
 .keen-slider:hover {
-  background: rgba(247, 225, 103, 0.25);
+  background: rgba(255, 225, 56, 0.25);
 }
 
 .leaflet {
-  border: 1px solid rgb(60, 255, 0);
+  border: 1px solid rgb(117, 163, 67);
 }
 .leaflet:hover {
-  background: rgba(118, 216, 72, 0.25);
+  background: rgba(117, 163, 67, 0.25);
 }
 
 .linaria {
-  border: 1px solid rgb(121, 30, 182);
+  border: 1px solid rgb(229, 53, 171);
 }
 .linaria:hover {
-  background: rgba(102, 47, 124, 0.25);
+  background: rgba(229, 53, 171, 0.25);
 }
 
 .maska {
   border: 1px solid rgb(182, 30, 157);
 }
 .maska:hover {
-  background: rgba(124, 47, 98, 0.25);
+  background: rgba(182, 30, 157, 0.25);
 }
 
 .error-boundary {
   border: 1px solid rgb(192, 47, 47);
 }
 .error-boundary:hover {
-  background: rgba(124, 47, 47, 0.25);
+  background: rgba(192, 47, 47, 0.25);
 }
 
 .markdown {
-  border: 1px solid rgb(53, 40, 22);
+  border: 1px solid rgb(0, 0, 0);
 }
 .markdown:hover {
-  background: rgba(129, 110, 81, 0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .github-apis {
-  border: 1px solid rgb(17, 9, 53);
+  border: 1px solid rgb(36, 41, 46);
 }
 .github-apis:hover {
-  background: rgba(39, 24, 58, 0.25);
+  background: rgba(36, 41, 46, 0.25);
 }
 
 .math-js {
-  border: 1px solid rgb(204, 185, 18);
+  border: 1px solid rgb(236, 201, 75);
 }
 .math-js:hover {
-  background: rgba(204, 175, 80, 0.25);
+  background: rgba(236, 201, 75, 0.25);
 }
 
 .swr {
-  border: 1px solid rgb(56, 53, 26);
+  border: 1px solid rgb(0, 0, 0);
 }
 .swr:hover {
-  background: rgba(199, 185, 138, 0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .stitches {
@@ -330,33 +329,33 @@ a:visited {
   border: 1px solid rgb(0, 0, 0);
 }
 .bff:hover {
-  background: rgba(80, 78, 79, 0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .ark-ui {
-  border: 1px solid rgb(255, 149, 0);
+  border: 1px solid rgb(235, 94, 65);
 }
 .ark-ui:hover {
-  background: rgba(255, 174, 60, 0.25);
+  background: rgba(235, 94, 65, 0.25);
 }
 
 .msw {
-  border: 1px solid rgb(255, 123, 0);
+  border: 1px solid rgb(237, 115, 68);
 }
 .msw:hover {
-  background: rgba(221, 133, 52, 0.25);
+  background: rgba(237, 115, 68, 0.25);
 }
 
 .nuqs {
-  border: 1px solid rgb(80, 78, 76);
+  border: 1px solid rgb(0, 0, 0);
 }
 .nuqs:hover {
-  background: rgba(143, 142, 141, 0.25);
+  background: rgba(0, 0, 0, 0.25);
 }
 
 .alova {
   border: 1px solid rgb(2, 204, 214);
 }
 .alova:hover {
-  background: rgba(12, 204, 214, 0.25);
+  background: rgba(2, 204, 214, 0.25);
 }
